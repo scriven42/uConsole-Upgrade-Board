@@ -1,0 +1,11374 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "4da582aa-1c19-4335-bae2-af80d199d98e")
+	(paper "A4")
+	(lib_symbols
+		(symbol "GL850G-USB2.0-HUB-altium-import:AVDD_CIRCLE"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AVDD"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name 'AVDD'"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AVDD_CIRCLE_0_0"
+				(circle
+					(center 0 -1.905)
+					(radius 0.635)
+					(stroke
+						(width 0.127)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 0) hide
+					(name "AVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "GL850G-USB2.0-HUB-altium-import:DGND_POWER_GROUND"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "DGND"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name 'DGND'"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "DGND_POWER_GROUND_0_0"
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -3.302) (xy 1.778 -3.302)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -4.064) (xy 1.016 -4.064)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 -4.826) (xy 0.254 -4.826)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 0) hide
+					(name "DGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "GL850G-USB2.0-HUB-altium-import:DVDD_CIRCLE"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "DVDD"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name 'DVDD'"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "DVDD_CIRCLE_0_0"
+				(circle
+					(center 0 -1.905)
+					(radius 0.635)
+					(stroke
+						(width 0.127)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 0) hide
+					(name "DVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "GL850G-USB2.0-HUB-altium-import:EGND_EARTH"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "EGND"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name 'EGND'"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "EGND_EARTH_0_0"
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy -1.27 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -5.08) (xy -2.54 -2.54) (xy 2.54 -2.54) (xy 1.27 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 0) hide
+					(name "EGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "GL850G-USB2.0-HUB-altium-import:VCC_CIRCLE"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "VCC"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name 'VCC'"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VCC_CIRCLE_0_0"
+				(circle
+					(center 0 -1.905)
+					(radius 0.635)
+					(stroke
+						(width 0.127)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 0) hide
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "GL850G-USB2.0-HUB-altium-import:root_0_C-0603"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*C0603*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_0_C-0603_1_0"
+				(polyline
+					(pts
+						(xy 1.524 -1.778) (xy 3.556 -1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.778) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -0.762) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.556 -0.762)
+					(end 1.524 -1.016)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 2.54 270)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "GL850G-USB2.0-HUB-altium-import:root_0_CE-100UF/16V"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*CED-6_3-2_5*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_0_CE-100UF/16V_1_0"
+				(polyline
+					(pts
+						(xy 0 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.016) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 -1.016)
+					(mid 1.2313 -1.2325)
+					(end 0.0621 -1.8588)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 5.0179 -1.8588)
+					(mid 3.8487 -1.2325)
+					(end 2.54 -1.016)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "+"
+					(at 3.048 1.016 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+							(bold yes)
+						)
+						(justify left bottom)
+					)
+				)
+				(pin passive line
+					(at 2.54 2.54 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "GL850G-USB2.0-HUB-altium-import:root_0_FS-A_0"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*1210l*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_0_FS-A_0_1_0"
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 1.524 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -4.064) (xy 2.54 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.096 -4.064) (xy 7.62 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.032 -0.762)
+					(mid 1.7404 -0.82)
+					(end 1.4932 -0.9852)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.5708 -0.9852)
+					(mid 2.3236 -0.82)
+					(end 2.032 -0.762)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 5.1336 -4.0372)
+					(mid 5.3209 -4.2422)
+					(end 5.588 -4.318)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 5.588 -4.318)
+					(mid 5.8551 -4.2421)
+					(end 6.0424 -4.0372)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive inverted
+					(at -7.62 -2.54 0)
+					(length 7.62)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at 15.24 -2.54 180)
+					(length 7.62)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "GL850G-USB2.0-HUB-altium-import:root_0_GLI8024-48_3"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*SSOP28*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_0_GLI8024-48_3_1_0"
+				(circle
+					(center 3.81 -3.81)
+					(radius 1.27)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 35.56 0)
+					(end 0 -48.26)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "SSOP28"
+					(at 12.7 -44.958 0)
+					(effects
+						(font
+							(size 0.889 0.889)
+							(italic yes)
+						)
+						(justify left bottom)
+					)
+				)
+				(pin passive line
+					(at -7.62 -7.62 0)
+					(length 7.62)
+					(name "AVDD1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -30.48 0)
+					(length 7.62)
+					(name "AVDD3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -33.02 0)
+					(length 7.62)
+					(name "DM4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -35.56 0)
+					(length 7.62)
+					(name "DP4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -38.1 0)
+					(length 7.62)
+					(name "RESET#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -40.64 0)
+					(length 7.62)
+					(name "TEST"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 43.18 -40.64 180)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 43.18 -38.1 180)
+					(length 7.62)
+					(name "DVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 43.18 -35.56 180)
+					(length 7.62)
+					(name "PSELF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 43.18 -33.02 180)
+					(length 7.62)
+					(name "PGANG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 43.18 -30.48 180)
+					(length 7.62)
+					(name "OVCUR2#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -10.16 0)
+					(length 7.62)
+					(name "DM2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 43.18 -27.94 180)
+					(length 7.62)
+					(name "PWREN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 43.18 -25.4 180)
+					(length 7.62)
+					(name "OVCUR1#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 43.18 -22.86 180)
+					(length 7.62)
+					(name "PWREN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 43.18 -20.32 180)
+					(length 7.62)
+					(name "V5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 43.18 -17.78 180)
+					(length 7.62)
+					(name "V33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 43.18 -15.24 180)
+					(length 7.62)
+					(name "DM0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 43.18 -12.7 180)
+					(length 7.62)
+					(name "DP0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 43.18 -10.16 180)
+					(length 7.62)
+					(name "DM1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 43.18 -7.62 180)
+					(length 7.62)
+					(name "DP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -12.7 0)
+					(length 7.62)
+					(name "DP2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -15.24 0)
+					(length 7.62)
+					(name "RREF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -17.78 0)
+					(length 7.62)
+					(name "AVDD2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -20.32 0)
+					(length 7.62)
+					(name "XTAL1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -22.86 0)
+					(length 7.62)
+					(name "XTAL2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -25.4 0)
+					(length 7.62)
+					(name "DM3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -27.94 0)
+					(length 7.62)
+					(name "DP3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "GL850G-USB2.0-HUB-altium-import:root_0_USBA-A"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*USBA-A*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_0_USBA-A_1_0"
+				(rectangle
+					(start 10.16 0)
+					(end 0 -25.4)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -7.62 -7.62 0)
+					(length 7.62)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -10.16 0)
+					(length 7.62)
+					(name "D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -12.7 0)
+					(length 7.62)
+					(name "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -15.24 0)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 7.62)
+					(name "HAND1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -22.86 0)
+					(length 7.62)
+					(name "HAND2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "GL850G-USB2.0-HUB-altium-import:root_0_XD-49US-A"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*XTAL-49SMA-H4.2*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_0_XD-49US-A_1_0"
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -3.81) (xy 0.762 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 1.778 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 -3.81) (xy 0.762 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 -1.27) (xy 1.778 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.27) (xy 2.54 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 -2.54 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "GL850G-USB2.0-HUB-altium-import:root_1_FB-0805"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*L0805*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_1_FB-0805_1_0"
+				(arc
+					(start 1.27 1.27)
+					(mid 0.372 0.898)
+					(end 0 0)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 0)
+					(mid 2.168 0.898)
+					(end 1.27 1.27)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 3.81 1.27)
+					(mid 2.912 0.898)
+					(end 2.54 0)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 5.08 0)
+					(mid 4.708 0.898)
+					(end 3.81 1.27)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "GL850G-USB2.0-HUB-altium-import:root_1_R-0603"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*R0603*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_1_R-0603_1_0"
+				(polyline
+					(pts
+						(xy 2.032 0.508) (xy 3.048 1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 2.54) (xy 3.048 3.556)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 4.572) (xy 2.54 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.032 0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.048 1.524) (xy 2.032 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.048 3.556) (xy 2.032 4.572)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.016) (xy 2.032 0.508) (xy 2.54 0) (xy 2.54 1.016) (xy 2.032 0.508) (xy 2.54 1.016)
+					)
+					(stroke
+						(width -0.0001)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 2.54 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 7.62 270)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "GL850G-USB2.0-HUB-altium-import:root_1_R-0603 1%"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*R0603*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_1_R-0603 1%_1_0"
+				(polyline
+					(pts
+						(xy 2.032 0.508) (xy 3.048 1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 2.54) (xy 3.048 3.556)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 4.572) (xy 2.54 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.032 0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.048 1.524) (xy 2.032 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.048 3.556) (xy 2.032 4.572)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.016) (xy 2.032 0.508) (xy 2.54 0) (xy 2.54 1.016) (xy 2.032 0.508) (xy 2.54 1.016)
+					)
+					(stroke
+						(width -0.0001)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 2.54 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 7.62 270)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "GL850G-USB2.0-HUB-altium-import:root_2_mirrored_CNS-USBminiAB-A"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Micro_USB_MK5P*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_2_mirrored_CNS-USBminiAB-A_1_0"
+				(rectangle
+					(start 12.7 25.4)
+					(end 0 0)
+					(stroke
+						(width 0.254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 20.32 10.16 180)
+					(length 7.62)
+					(name "G1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 7.62 180)
+					(length 7.62)
+					(name "G2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 5.08 180)
+					(length 7.62)
+					(name "G3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 2.54 180)
+					(length 7.62)
+					(name "G4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 20.32 180)
+					(length 2.54)
+					(name "H1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 22.86 180)
+					(length 2.54)
+					(name "H2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 17.78 0)
+					(length 7.62)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 15.24 0)
+					(length 7.62)
+					(name "D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 12.7 0)
+					(length 7.62)
+					(name "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 10.16 0)
+					(length 7.62)
+					(name "ID"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 7.62 0)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "GL850G-USB2.0-HUB-altium-import:root_3_LED-3mm_0"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*LED_0603*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_3_LED-3mm_0_1_0"
+				(polyline
+					(pts
+						(xy -2.54 -5.08) (xy -2.54 -10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -9.144) (xy -1.778 -7.874)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -7.112) (xy -1.778 -5.842)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy -5.08 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -9.652) (xy 0 -8.636) (xy -1.016 -9.652) (xy 0 -9.652) (xy 0 -9.652)
+					)
+					(stroke
+						(width -0.0001)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -6.604) (xy 0 -7.62) (xy -1.016 -7.62) (xy 0 -6.604) (xy 0 -6.604)
+					)
+					(stroke
+						(width -0.0001)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy -5.08 -2.54) (xy -2.54 -5.08) (xy 0 -2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width -0.0001)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at -2.54 2.54 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -12.7 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 215.9 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "043a47f7-c0f2-4725-b8ad-50502abc6e71")
+	)
+	(junction
+		(at 231.14 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "067f9935-331d-4a07-848a-3e4f45d1e273")
+	)
+	(junction
+		(at 231.14 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1162fc69-d7f6-4e55-8ff9-0b199d495a79")
+	)
+	(junction
+		(at 127 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1885c41b-a1b1-49eb-9574-23ca206d6557")
+	)
+	(junction
+		(at 149.86 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1dcb71b3-a4b4-4a77-ac8f-968afa2b9762")
+	)
+	(junction
+		(at 170.18 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1f7581d9-b7fb-4535-a7a3-a803b958004f")
+	)
+	(junction
+		(at 160.02 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26219906-e5c7-4801-ba31-8adb09841b21")
+	)
+	(junction
+		(at 160.02 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2bc0ecaa-545e-49c4-968c-56d38592fcf0")
+	)
+	(junction
+		(at 167.64 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2c76a7ff-0fa5-4d5b-a3f7-fdde545a870e")
+	)
+	(junction
+		(at 231.14 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2e609767-c137-44dd-8dd4-eac554fca18d")
+	)
+	(junction
+		(at 170.18 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f355e8d-a324-4600-b8c3-b36d4cb0a9f1")
+	)
+	(junction
+		(at 114.3 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f4b3511-f735-4063-a5aa-e308010de7a3")
+	)
+	(junction
+		(at 26.67 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "309c3b88-34de-4bd5-8b31-ed1759db1045")
+	)
+	(junction
+		(at 160.02 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "36f14abe-8b63-4a0d-a891-33980dfa26f5")
+	)
+	(junction
+		(at 215.9 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "383ee37c-1c81-434a-8d2f-8504b853955d")
+	)
+	(junction
+		(at 215.9 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "40ec79d1-dba9-42a9-8fc7-5ab7b2c907c9")
+	)
+	(junction
+		(at 215.9 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "454494fb-457e-4c6c-8125-3a4761d11d86")
+	)
+	(junction
+		(at 215.9 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "554a8c2d-ce3a-4e76-b30b-5c984e651441")
+	)
+	(junction
+		(at 231.14 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5ca1cb14-e883-48a2-ab0d-9b4e83360e57")
+	)
+	(junction
+		(at 116.84 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6124bab9-a899-4f1a-ace2-276ff7ef5bb2")
+	)
+	(junction
+		(at 116.84 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6437e02a-6ec0-4498-ba2e-38bdd13ad06b")
+	)
+	(junction
+		(at 134.62 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "67d55154-655f-4918-9990-608b3b3070a7")
+	)
+	(junction
+		(at 167.64 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c376362-6aa7-4c7c-8a24-60c785b2f43f")
+	)
+	(junction
+		(at 149.86 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7fa248bb-6966-496b-82d7-d4252c01c2f9")
+	)
+	(junction
+		(at 119.38 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "89e5bfee-4a68-4c5b-9290-72463e5728d7")
+	)
+	(junction
+		(at 215.9 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b278a01-ab9f-4d58-bf14-4347ec70a6ed")
+	)
+	(junction
+		(at 231.14 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c25e438-c344-4060-a74f-f992c810f5ad")
+	)
+	(junction
+		(at 114.3 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "92d91ca4-ffd9-4a4e-acdd-7f0437c85d2d")
+	)
+	(junction
+		(at 144.78 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a32d4f6-78af-4ae8-86d1-f4803561ce40")
+	)
+	(junction
+		(at 111.76 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a3be1641-b925-4a5c-a68c-23a2df997c3d")
+	)
+	(junction
+		(at 116.84 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a45e24c3-053b-47fc-91bc-fd11a2f89ce4")
+	)
+	(junction
+		(at 26.67 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "adc359fc-8e4c-49cb-b5e5-a92e41e19eae")
+	)
+	(junction
+		(at 116.84 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bbdc119b-4734-48dc-a5fa-b4dc73c5c3ea")
+	)
+	(junction
+		(at 231.14 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bf491d30-675f-455a-ae3a-07f5380db319")
+	)
+	(junction
+		(at 231.14 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c6e1ac7b-bcf1-412a-bc7e-ca83bd4b26bb")
+	)
+	(junction
+		(at 231.14 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c7754c28-d97a-4e02-974d-2477a3185db8")
+	)
+	(junction
+		(at 215.9 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da7b0aef-11b7-4aaf-bf06-7f760ff06fc7")
+	)
+	(junction
+		(at 215.9 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eef6817b-08bd-4d7a-800f-9b1ea1ee23ea")
+	)
+	(junction
+		(at 116.84 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f246e0f0-a1a9-410b-a2a5-2e41842b203b")
+	)
+	(no_connect
+		(at 76.2 38.1)
+		(uuid "1b87908a-12c2-4a22-8283-428411fc1e75")
+	)
+	(no_connect
+		(at 76.2 50.8)
+		(uuid "2befc8e3-fed6-48e0-bff3-139c7702aad3")
+	)
+	(no_connect
+		(at 76.2 43.18)
+		(uuid "39f3d73c-5ff6-4b9f-a590-97e2125d00fd")
+	)
+	(no_connect
+		(at 76.2 45.72)
+		(uuid "3e475398-b9ae-430c-a12b-5ab3c0387709")
+	)
+	(no_connect
+		(at 76.2 40.64)
+		(uuid "de3a4ca3-9817-43cf-bfb8-1a7b3ed2f8ad")
+	)
+	(no_connect
+		(at 25.4 55.88)
+		(uuid "df70a7ff-0106-42d3-95e2-2304d9ec613b")
+	)
+	(wire
+		(pts
+			(xy 66.04 149.86) (xy 60.96 149.86)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "015d9a35-bdd5-406b-8095-1adcd75e9308")
+	)
+	(wire
+		(pts
+			(xy 231.14 73.66) (xy 231.14 71.12)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "02ca7ea6-6d0d-4983-824f-88a1522eb6af")
+	)
+	(wire
+		(pts
+			(xy 208.28 96.52) (xy 215.9 96.52)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "037b6d7a-93ab-46de-8184-fb0b65bc825c")
+	)
+	(wire
+		(pts
+			(xy 116.84 170.18) (xy 116.84 167.64)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "03c71a2e-6bd2-484c-9c3a-e915dbaf985e")
+	)
+	(wire
+		(pts
+			(xy 231.14 134.62) (xy 231.14 132.08)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "045ea385-e4c6-4b8d-8591-1ca7d7cf8770")
+	)
+	(wire
+		(pts
+			(xy 231.14 144.78) (xy 231.14 142.24)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "049f60a0-272f-488d-833d-6ae177dfee54")
+	)
+	(wire
+		(pts
+			(xy 259.08 33.02) (xy 261.62 33.02)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "04bbb7ca-85e4-49b1-90cd-5da78969eb5f")
+	)
+	(wire
+		(pts
+			(xy 76.2 154.94) (xy 76.2 149.86)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "05332e4a-bcb4-4f83-ab2d-1a8bc529b547")
+	)
+	(wire
+		(pts
+			(xy 259.08 136.7028) (xy 256.54 136.7028)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "065e37cf-2b55-4474-a533-4c71b1bb07ae")
+	)
+	(wire
+		(pts
+			(xy 25.4 38.1) (xy 15.24 38.1)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "079844ad-a16c-4959-9dfd-48d307a4ba89")
+	)
+	(wire
+		(pts
+			(xy 170.18 45.72) (xy 170.18 43.18)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "0ae33279-8b79-4923-8b09-e95a44bc386c")
+	)
+	(wire
+		(pts
+			(xy 259.08 81.28) (xy 259.08 78.74)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "0bc94ec4-0e01-4fcc-9799-0a279d3fd521")
+	)
+	(wire
+		(pts
+			(xy 127 109.22) (xy 127 104.14)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "0c4383b6-37a1-4e98-8b60-32ce554d8de5")
+	)
+	(wire
+		(pts
+			(xy 231.14 109.22) (xy 231.14 106.68)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "0ed469d8-c7ac-4e9a-bdca-87b5958d5b95")
+	)
+	(wire
+		(pts
+			(xy 170.18 35.56) (xy 170.18 30.48)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "0f9cc650-90bb-4335-886c-9c6c500c7485")
+	)
+	(wire
+		(pts
+			(xy 215.9 25.4) (xy 218.44 25.4)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "10897b89-c1d4-4c44-9412-6f94a49d5bb8")
+	)
+	(wire
+		(pts
+			(xy 144.78 152.4) (xy 144.78 139.7)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "1147e40a-eb7c-485b-8638-9e37da23cf9b")
+	)
+	(wire
+		(pts
+			(xy 180.34 35.56) (xy 180.34 30.48)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "1274b17f-9508-45d5-9c12-f47ea30a3557")
+	)
+	(wire
+		(pts
+			(xy 81.28 121.92) (xy 81.28 109.22)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "146916c7-def7-43fc-a056-6a18bc04f039")
+	)
+	(wire
+		(pts
+			(xy 259.08 137.16) (xy 261.62 137.16)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "16b53324-e639-48ea-adea-9dff84b24d08")
+	)
+	(wire
+		(pts
+			(xy 86.36 157.48) (xy 76.2 157.48)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "173dedf3-d494-4af1-9fc6-b470e5269ae8")
+	)
+	(wire
+		(pts
+			(xy 167.64 119.38) (xy 167.64 116.84)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "18fa7e5e-1077-41a1-a2e1-e197d3aa0338")
+	)
+	(wire
+		(pts
+			(xy 144.78 172.72) (xy 160.02 172.72)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "1a29f361-419e-4b5a-9193-8814fda6cc7e")
+	)
+	(wire
+		(pts
+			(xy 25.4 53.34) (xy 15.24 53.34)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "1a64760c-ad0e-4b30-8c0b-ffaf130bdb75")
+	)
+	(wire
+		(pts
+			(xy 116.84 167.64) (xy 114.3 167.64)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "1b0e8a96-10d2-4153-8d83-5cea14efc74d")
+	)
+	(wire
+		(pts
+			(xy 170.18 45.72) (xy 180.34 45.72)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "1b7dcb92-8544-4787-8f00-8a67e8949f40")
+	)
+	(wire
+		(pts
+			(xy 259.0178 30.48) (xy 261.62 30.48)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "1d81ba53-0d87-4f59-9d32-b79bc5b97d20")
+	)
+	(wire
+		(pts
+			(xy 259.08 32.5628) (xy 259.08 33.02)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "25775824-c132-45fc-bffc-19f4e4ad8ec6")
+	)
+	(wire
+		(pts
+			(xy 25.4 40.64) (xy 15.24 40.64)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "25f72728-672b-4c9f-8e76-697c4413928e")
+	)
+	(wire
+		(pts
+			(xy 231.14 73.66) (xy 251.46 73.66)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "26069b2a-6bab-4184-ae1d-a420d3ff52c4")
+	)
+	(wire
+		(pts
+			(xy 251.46 60.96) (xy 231.14 60.96)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "2ac79160-ffc8-4ab0-899d-6d399680bd75")
+	)
+	(wire
+		(pts
+			(xy 25.4 27.94) (xy 15.24 27.94)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "2d543ec7-bbee-4d2c-b8a6-3438a1e8c891")
+	)
+	(wire
+		(pts
+			(xy 149.86 45.72) (xy 149.86 43.18)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "2d5b7ece-39ba-4a6f-b666-dc42635e26b9")
+	)
+	(wire
+		(pts
+			(xy 259.08 114.3) (xy 261.62 114.3)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "2db086a0-5064-4f06-a627-e728ccd4b922")
+	)
+	(wire
+		(pts
+			(xy 114.3 33.02) (xy 114.3 22.86)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "2dfd3f63-12e8-447e-ad9f-1a8fa363d52b")
+	)
+	(wire
+		(pts
+			(xy 167.64 104.14) (xy 167.64 99.06)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "2e01a0d1-3344-4874-9eaa-0f1fe4e85653")
+	)
+	(wire
+		(pts
+			(xy 116.84 165.1) (xy 114.3 165.1)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "30cd78a5-0954-494b-8d09-a281f995a86c")
+	)
+	(wire
+		(pts
+			(xy 215.9 132.08) (xy 215.9 134.62)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "30ff0073-3c2a-46b2-aed4-0e930565f9e6")
+	)
+	(wire
+		(pts
+			(xy 25.4 48.26) (xy 15.24 48.26)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "3114f863-6bd5-420f-822c-8fa211926aae")
+	)
+	(wire
+		(pts
+			(xy 215.9 109.22) (xy 215.9 106.68)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "314c7084-2eb7-4cf5-aa1f-8b5e13c0a6af")
+	)
+	(wire
+		(pts
+			(xy 259.08 93.98) (xy 259.08 91.44)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "316a5edc-92aa-4537-894f-9b1aa9a72f39")
+	)
+	(wire
+		(pts
+			(xy 215.9 76.2) (xy 215.9 73.66)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "321615a0-f4e7-4093-850d-1440a546c200")
+	)
+	(wire
+		(pts
+			(xy 114.3 33.02) (xy 119.38 33.02)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "32428695-91a1-406f-8f5d-d30578e3852e")
+	)
+	(wire
+		(pts
+			(xy 231.14 99.06) (xy 231.14 96.52)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "32586516-bb91-4a1f-89c1-5a4915a23329")
+	)
+	(wire
+		(pts
+			(xy 25.4 43.18) (xy 15.24 43.18)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "36d3124a-63c9-4ad5-9d8b-9ef5fd43e510")
+	)
+	(wire
+		(pts
+			(xy 180.34 30.48) (xy 170.18 30.48)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "373cf7e8-3ce3-4341-8513-bb82daca5396")
+	)
+	(wire
+		(pts
+			(xy 134.62 45.72) (xy 114.3 45.72)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "37a70933-3761-4c09-9148-8e224d40d42a")
+	)
+	(wire
+		(pts
+			(xy 260.35 65.5828) (xy 260.35 66.04)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "37e65b2d-b2e9-4a5c-8256-20ff8c475bb5")
+	)
+	(wire
+		(pts
+			(xy 180.34 45.72) (xy 180.34 43.18)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "38423398-4e22-4ccc-ac21-907d64e4d6a6")
+	)
+	(wire
+		(pts
+			(xy 127 104.14) (xy 127 83.82)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "387ed4d0-305c-48ad-8c42-d683c9796fde")
+	)
+	(wire
+		(pts
+			(xy 26.67 105.41) (xy 26.67 102.87)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "39babe41-76ca-4970-85b3-43e94803bd4f")
+	)
+	(wire
+		(pts
+			(xy 231.14 63.5) (xy 231.14 60.96)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "39be1f08-307d-4dde-bad7-e01b248cb264")
+	)
+	(wire
+		(pts
+			(xy 157.48 99.06) (xy 167.64 99.06)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "3bdd8110-d824-4f94-91da-b2095c2502db")
+	)
+	(wire
+		(pts
+			(xy 231.14 25.4) (xy 251.46 25.4)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "3dbf10a9-def2-4aa3-b4c9-8231378ca9cb")
+	)
+	(wire
+		(pts
+			(xy 251.46 142.24) (xy 261.62 142.24)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "3dfab2df-ce64-4125-9232-b048f29be08d")
+	)
+	(wire
+		(pts
+			(xy 259.0178 30.1416) (xy 257.5289 30.1416)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "3ed8e180-c3cc-414a-a4f3-a9fd07ea6e80")
+	)
+	(wire
+		(pts
+			(xy 76.2 165.1) (xy 76.2 170.18)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "4231a417-669b-4906-bb5a-570b9bcee293")
+	)
+	(wire
+		(pts
+			(xy 215.9 63.5) (xy 215.9 60.96)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "44ddcafd-2e81-4fca-a0e6-afd203eb4556")
+	)
+	(wire
+		(pts
+			(xy 215.9 38.1) (xy 231.14 38.1)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "4524fc7a-c1c8-4dfc-9eb0-cb3e8bc04d97")
+	)
+	(wire
+		(pts
+			(xy 231.14 27.94) (xy 231.14 25.4)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "4885c4b2-33ef-44e4-9839-6a5fcc5f1bc6")
+	)
+	(wire
+		(pts
+			(xy 86.36 160.02) (xy 76.2 160.02)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "48c5e99e-c904-4071-9970-2cc4719ebcb6")
+	)
+	(wire
+		(pts
+			(xy 215.9 73.66) (xy 231.14 73.66)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "49dca48b-3a3a-483c-b4c1-2ac538b636e3")
+	)
+	(wire
+		(pts
+			(xy 257.81 103.6828) (xy 257.81 104.14)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "4b14c86b-0ea5-4533-aff6-19f1b4d0d450")
+	)
+	(wire
+		(pts
+			(xy 144.78 139.7) (xy 160.02 139.7)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "4b879477-870b-44d3-b0cc-ac2618ef31f2")
+	)
+	(wire
+		(pts
+			(xy 259.08 136.7028) (xy 259.08 137.16)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "4cf7b843-6c93-4fd6-834c-5ef4b87cc9db")
+	)
+	(wire
+		(pts
+			(xy 134.62 33.02) (xy 134.62 22.86)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "4f361672-feab-4920-9e48-dd52f3cb0104")
+	)
+	(wire
+		(pts
+			(xy 251.46 38.1) (xy 251.46 35.56)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "52b00485-fba7-4cca-9ff2-9451cf5727f4")
+	)
+	(wire
+		(pts
+			(xy 160.02 30.48) (xy 149.86 30.48)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "539473b8-67bd-4edb-af6d-30d14d00986f")
+	)
+	(wire
+		(pts
+			(xy 251.46 134.62) (xy 261.62 134.62)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "56054cd6-7807-492f-8d7c-fb69f2c16a9d")
+	)
+	(wire
+		(pts
+			(xy 26.67 102.87) (xy 26.67 100.33)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "5768375a-620c-4357-bfc0-022b5d0361e3")
+	)
+	(wire
+		(pts
+			(xy 114.3 45.72) (xy 114.3 43.18)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "58fedbc9-4206-4358-8fd0-45c97debaa3a")
+	)
+	(wire
+		(pts
+			(xy 228.6 25.4) (xy 231.14 25.4)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "5906d8a1-96ad-4712-aa19-63c52dfa998b")
+	)
+	(wire
+		(pts
+			(xy 251.46 99.06) (xy 251.46 96.52)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "5a22151e-19fd-46e9-b08b-ab4065bb7dc9")
+	)
+	(wire
+		(pts
+			(xy 251.46 73.66) (xy 251.46 71.12)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "5ea108ec-8670-4c8c-9ce7-2aa18bcf9cbb")
+	)
+	(wire
+		(pts
+			(xy 231.14 60.96) (xy 228.6 60.96)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "5ef75bf0-30fd-4d70-ac88-876cdca39129")
+	)
+	(wire
+		(pts
+			(xy 111.76 109.22) (xy 111.76 104.14)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "5f6a015f-236d-45b3-a59d-9d5966693989")
+	)
+	(wire
+		(pts
+			(xy 261.62 58.42) (xy 259.08 58.42)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "62d48616-568b-46e2-8e7e-2d2b1f5b6086")
+	)
+	(wire
+		(pts
+			(xy 215.9 38.1) (xy 215.9 35.56)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "63d5a797-19fe-4331-ab00-761480705f0f")
+	)
+	(wire
+		(pts
+			(xy 215.9 73.66) (xy 215.9 71.12)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "660a0b88-b995-437f-955a-66ddc7c6acd5")
+	)
+	(wire
+		(pts
+			(xy 255.27 103.6828) (xy 257.81 103.6828)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "6709fde7-7591-4ff2-9a6a-1f8896b5ebeb")
+	)
+	(wire
+		(pts
+			(xy 215.9 114.3) (xy 215.9 109.22)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "67217e8d-8bf2-4ac3-895e-c0047f4885dc")
+	)
+	(wire
+		(pts
+			(xy 215.9 40.64) (xy 215.9 38.1)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "674aa1ac-4037-47d8-b292-b7dc158af32d")
+	)
+	(wire
+		(pts
+			(xy 114.3 48.26) (xy 114.3 45.72)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "69619d4a-b5f2-4fe1-96b1-f32672fa0969")
+	)
+	(wire
+		(pts
+			(xy 167.64 99.06) (xy 167.64 96.52)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "69783aa3-6478-4be2-a809-ad9f5b187238")
+	)
+	(wire
+		(pts
+			(xy 261.62 22.86) (xy 259.08 22.86)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "6a60397d-1575-4e6c-a7b9-1973c870b1d7")
+	)
+	(wire
+		(pts
+			(xy 259.08 101.1428) (xy 256.54 101.1428)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "6c708d63-2d46-4e03-aab9-acede1e324d7")
+	)
+	(wire
+		(pts
+			(xy 86.36 22.86) (xy 76.2 22.86)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "6c86c7f2-7bc1-4ce7-8f63-56d0d0649a42")
+	)
+	(wire
+		(pts
+			(xy 259.08 43.18) (xy 259.08 45.72)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "6d8b68c4-0426-4709-8e3e-6916332b1581")
+	)
+	(wire
+		(pts
+			(xy 215.9 99.06) (xy 215.9 96.52)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "6fe8b438-4205-4446-b587-cab9e98d4272")
+	)
+	(wire
+		(pts
+			(xy 119.38 121.92) (xy 119.38 119.38)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "6fee55eb-36f6-41ae-98f4-5693d8ac54a7")
+	)
+	(wire
+		(pts
+			(xy 25.4 33.02) (xy 15.24 33.02)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "7370d6ba-c45f-45e9-923b-bf231fbf7c15")
+	)
+	(wire
+		(pts
+			(xy 86.36 25.4) (xy 76.2 25.4)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "73e70df3-e889-4b73-b1d4-7fa53678aa65")
+	)
+	(wire
+		(pts
+			(xy 231.14 38.1) (xy 251.46 38.1)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "74019575-4edc-4fbe-be03-7a1d516b8af5")
+	)
+	(wire
+		(pts
+			(xy 116.84 165.1) (xy 116.84 162.56)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "75c5f5c5-a69e-46e7-a7c0-5155f55c70ac")
+	)
+	(wire
+		(pts
+			(xy 25.4 30.48) (xy 15.24 30.48)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "77fe8414-ac12-47fe-9745-bcf051877c77")
+	)
+	(wire
+		(pts
+			(xy 134.62 33.02) (xy 129.54 33.02)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "78627955-0823-4af3-a070-1a07f1e3ff5d")
+	)
+	(wire
+		(pts
+			(xy 251.46 144.78) (xy 251.46 142.24)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "79b4853d-87b5-4beb-8998-3b8a2a3128d1")
+	)
+	(wire
+		(pts
+			(xy 109.22 149.86) (xy 116.84 149.86)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "7a1aabb6-192f-4210-90f9-6495fb14641a")
+	)
+	(wire
+		(pts
+			(xy 160.02 139.7) (xy 160.02 137.16)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "7bc7cbc7-1df7-4529-8739-90bc626270d4")
+	)
+	(wire
+		(pts
+			(xy 30.48 160.02) (xy 30.48 165.1)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "7d5cad6e-b413-4cef-a3c4-218cc6a74a07")
+	)
+	(wire
+		(pts
+			(xy 83.82 55.88) (xy 76.2 55.88)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "7faccee4-d24e-49f0-abb0-b13362efc08f")
+	)
+	(wire
+		(pts
+			(xy 149.86 22.86) (xy 149.86 30.48)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "80c28cdb-fb61-4b4b-b1b8-670bff89ce31")
+	)
+	(wire
+		(pts
+			(xy 231.14 144.78) (xy 251.46 144.78)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "80c2ac2c-57d9-4823-89e5-4778c4576555")
+	)
+	(wire
+		(pts
+			(xy 215.9 144.78) (xy 231.14 144.78)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "80ec295c-d37c-4ecc-b824-27c07a121ac3")
+	)
+	(wire
+		(pts
+			(xy 261.62 99.06) (xy 251.46 99.06)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "810c45f5-89f3-4fc9-9fbb-5792ec1286c8")
+	)
+	(wire
+		(pts
+			(xy 111.76 104.14) (xy 111.76 83.82)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "81ef8f9d-0b23-4a70-9ec8-0137e8aca98b")
+	)
+	(wire
+		(pts
+			(xy 40.64 160.02) (xy 30.48 160.02)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "839c5794-0670-460f-bb4c-ab950c538df0")
+	)
+	(wire
+		(pts
+			(xy 111.76 119.38) (xy 111.76 116.84)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "8488a28c-dd4f-4c71-ad0d-819c04dcc35d")
+	)
+	(wire
+		(pts
+			(xy 177.8 99.06) (xy 177.8 104.14)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "84a007bc-f74b-43ef-9bb1-446e19383f4b")
+	)
+	(wire
+		(pts
+			(xy 160.02 172.72) (xy 160.02 170.18)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "86d8d2c2-1893-44a6-93f1-03399aff72d3")
+	)
+	(wire
+		(pts
+			(xy 259.08 152.4) (xy 259.08 149.86)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "8896686d-cdac-4ad9-b5ac-eb5d3680b26b")
+	)
+	(wire
+		(pts
+			(xy 261.62 63.5) (xy 251.46 63.5)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "89af8a48-0d34-461a-9db3-4ab737b60ebf")
+	)
+	(wire
+		(pts
+			(xy 116.84 149.86) (xy 116.84 152.4)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "8a3d5b73-c949-451f-8fd4-a473f29427c7")
+	)
+	(wire
+		(pts
+			(xy 259.08 68.1228) (xy 259.08 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cb72da0-3c35-48fd-bec0-670c2420271e")
+	)
+	(wire
+		(pts
+			(xy 104.14 33.02) (xy 114.3 33.02)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "8ce756e6-636e-4469-a80b-dcaa7c17942e")
+	)
+	(wire
+		(pts
+			(xy 160.02 45.72) (xy 170.18 45.72)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "8e06e0f9-1e43-4920-a75a-6065642afeff")
+	)
+	(wire
+		(pts
+			(xy 149.86 30.48) (xy 149.86 35.56)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "8fd65eb7-5bba-4aa3-817d-a3342b98a504")
+	)
+	(wire
+		(pts
+			(xy 257.81 104.14) (xy 261.62 104.14)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "9071df57-5a9f-492d-8b91-8b90bd0e3054")
+	)
+	(wire
+		(pts
+			(xy 26.67 118.11) (xy 26.67 115.57)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "914c457b-e221-47dc-9efb-45f5594e215c")
+	)
+	(wire
+		(pts
+			(xy 86.36 154.94) (xy 76.2 154.94)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "92ebcb15-cfc1-47c8-8285-48678cc3ff0d")
+	)
+	(wire
+		(pts
+			(xy 260.35 65.5828) (xy 257.81 65.5828)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "956bddf0-6618-4522-bd3a-ee09eeb2e086")
+	)
+	(wire
+		(pts
+			(xy 259.08 58.42) (xy 259.08 55.88)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "96040622-151c-4969-928b-f017022ad06a")
+	)
+	(wire
+		(pts
+			(xy 251.46 27.94) (xy 261.62 27.94)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "981a4b9a-258c-4cc8-a315-da9c7de1038c")
+	)
+	(wire
+		(pts
+			(xy 86.36 27.94) (xy 76.2 27.94)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "98a0ca44-9d27-4e4a-9264-ecd2953a413a")
+	)
+	(wire
+		(pts
+			(xy 259.08 101.1428) (xy 259.08 101.6)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "996a1f87-ac8b-4a2d-a2e5-f490b3e47eab")
+	)
+	(wire
+		(pts
+			(xy 119.38 119.38) (xy 111.76 119.38)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "9ae7125d-ebf8-43e4-bcf2-9c65af220803")
+	)
+	(wire
+		(pts
+			(xy 251.46 96.52) (xy 231.14 96.52)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "9b46a97c-b914-44e8-a715-3aef9efd447e")
+	)
+	(wire
+		(pts
+			(xy 260.35 66.04) (xy 261.62 66.04)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "9c197d32-904a-472a-a397-872c61f6f1c8")
+	)
+	(wire
+		(pts
+			(xy 40.64 165.1) (xy 40.64 160.02)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "9d21701c-b350-492e-bd90-4b1b3de9b592")
+	)
+	(wire
+		(pts
+			(xy 177.8 116.84) (xy 177.8 114.3)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "9da4b4c8-e3ee-467b-a162-dc07f37c9af6")
+	)
+	(wire
+		(pts
+			(xy 134.62 43.18) (xy 134.62 45.72)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "9f0e4ded-39bc-4ecf-962f-a69bcb4443dd")
+	)
+	(wire
+		(pts
+			(xy 160.02 45.72) (xy 160.02 43.18)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "9f2491ae-2adb-46e2-bfe2-52fc62ca148f")
+	)
+	(wire
+		(pts
+			(xy 127 119.38) (xy 119.38 119.38)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "9f61981e-dac7-4830-b7cf-08cfb724fe82")
+	)
+	(wire
+		(pts
+			(xy 261.62 129.54) (xy 259.08 129.54)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "9f755bf9-2c1d-43ac-965d-4851f7efa411")
+	)
+	(wire
+		(pts
+			(xy 149.86 48.26) (xy 149.86 45.72)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "a0af9f0b-4917-4ad3-a14f-63dfdf503f4e")
+	)
+	(wire
+		(pts
+			(xy 259.08 129.54) (xy 259.08 127)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "a3d2eaf9-3444-4b69-8f57-f1dad6862404")
+	)
+	(wire
+		(pts
+			(xy 86.36 35.56) (xy 76.2 35.56)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "a53fbbf4-d4dd-40fc-96df-865c4caa9bdd")
+	)
+	(wire
+		(pts
+			(xy 116.84 170.18) (xy 114.3 170.18)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "a5913342-faed-4db4-b359-253532442705")
+	)
+	(wire
+		(pts
+			(xy 127 116.84) (xy 127 119.38)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "a5a0900f-8bad-4bf5-be24-69018a6c887e")
+	)
+	(wire
+		(pts
+			(xy 231.14 132.08) (xy 251.46 132.08)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "a5a87c06-19a0-422c-ae3b-f87dc5773c7e")
+	)
+	(wire
+		(pts
+			(xy 257.81 139.7) (xy 261.62 139.7)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "a5ec2e2c-1b69-4161-81da-172390c77ca0")
+	)
+	(wire
+		(pts
+			(xy 257.81 139.2428) (xy 257.81 139.7)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "a7038d23-be99-4b23-a900-17df809bf988")
+	)
+	(wire
+		(pts
+			(xy 127 104.14) (xy 123.19 104.14)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "ac834069-9627-4327-8fbb-2bca716994c3")
+	)
+	(wire
+		(pts
+			(xy 167.64 86.36) (xy 167.64 83.82)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "b192f0af-db38-44b3-9cb8-5113401e1e1c")
+	)
+	(wire
+		(pts
+			(xy 251.46 35.56) (xy 261.62 35.56)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "b1e396fb-0c2e-44e2-a271-92f5d94d94a4")
+	)
+	(wire
+		(pts
+			(xy 259.08 149.86) (xy 261.62 149.86)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "b1ebb2fc-d278-4a25-8477-6e46ff3cab96")
+	)
+	(wire
+		(pts
+			(xy 259.08 78.74) (xy 261.62 78.74)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "b2048f9f-848d-4138-a372-4f67c4b8808e")
+	)
+	(wire
+		(pts
+			(xy 86.36 165.1) (xy 76.2 165.1)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "b2591a57-f892-49fb-b27d-931ef9e38792")
+	)
+	(wire
+		(pts
+			(xy 215.9 60.96) (xy 218.44 60.96)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "b27967fb-897b-4dc0-9d19-3ca90d46b3e5")
+	)
+	(wire
+		(pts
+			(xy 255.27 139.2428) (xy 256.54 139.2428)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b41fb643-04b0-48ba-8c7c-6f0a3fcabe78")
+	)
+	(wire
+		(pts
+			(xy 261.62 43.18) (xy 259.08 43.18)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "b46a697e-f838-451b-b706-30b644328d2a")
+	)
+	(wire
+		(pts
+			(xy 25.4 25.4) (xy 15.24 25.4)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "b64641f0-2762-4635-abc2-2c95164ae159")
+	)
+	(wire
+		(pts
+			(xy 91.44 53.34) (xy 76.2 53.34)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "b9189a07-5341-4f38-b866-35ac8a647b45")
+	)
+	(wire
+		(pts
+			(xy 167.64 116.84) (xy 177.8 116.84)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "ba8c39df-44e1-4533-a275-60c9061c5301")
+	)
+	(wire
+		(pts
+			(xy 215.9 147.32) (xy 215.9 144.78)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "bf1c7ccc-9dae-4175-b0cf-4e48de99538e")
+	)
+	(wire
+		(pts
+			(xy 259.0178 30.1416) (xy 259.0178 30.48)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "c1295850-b7fb-4a5f-a8cc-7252b6fa7b2c")
+	)
+	(wire
+		(pts
+			(xy 215.9 132.08) (xy 218.44 132.08)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "c182e6d3-3182-4754-b3ec-4e85c5e53926")
+	)
+	(wire
+		(pts
+			(xy 259.08 116.84) (xy 259.08 114.3)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "c1d108a1-4f7e-494f-a6e8-58a58fad2af9")
+	)
+	(wire
+		(pts
+			(xy 215.9 27.94) (xy 215.9 25.4)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "c252913d-83c5-435d-a1ec-bddc4f2fcc90")
+	)
+	(wire
+		(pts
+			(xy 251.46 25.4) (xy 251.46 27.94)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "c273c834-a89d-4935-8191-2aa4c6b0af23")
+	)
+	(wire
+		(pts
+			(xy 134.62 172.72) (xy 144.78 172.72)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "c2f5fc3e-6942-4a6e-bde1-fc728e929c34")
+	)
+	(wire
+		(pts
+			(xy 15.24 22.86) (xy 25.4 22.86)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "c8e758d1-fce0-4cd5-a797-7592f53b2054")
+	)
+	(wire
+		(pts
+			(xy 251.46 106.68) (xy 261.62 106.68)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "c8f94bb0-e52c-4ee5-8010-f8c0e37cbafe")
+	)
+	(wire
+		(pts
+			(xy 167.64 116.84) (xy 167.64 111.76)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "c9f60cbe-a59d-4518-8e65-3efadbd2ffca")
+	)
+	(wire
+		(pts
+			(xy 25.4 45.72) (xy 15.24 45.72)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "ca9ae414-a4bd-45d6-873a-9391644161b2")
+	)
+	(wire
+		(pts
+			(xy 259.08 68.58) (xy 261.62 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cca4b34a-5496-47b2-bb71-87893e78404f")
+	)
+	(wire
+		(pts
+			(xy 134.62 35.56) (xy 134.62 33.02)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "cd9c61df-4dae-4119-bee1-fe15ce26ca32")
+	)
+	(wire
+		(pts
+			(xy 26.67 90.17) (xy 26.67 83.82)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "cf34ad5e-88ff-4254-9615-8245eff88ef5")
+	)
+	(wire
+		(pts
+			(xy 116.84 152.4) (xy 116.84 162.56)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "cfbd3ee2-c674-4b79-9fc3-77af1a87d009")
+	)
+	(wire
+		(pts
+			(xy 215.9 144.78) (xy 215.9 142.24)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "d076cc92-3bc8-4e80-bcfa-879665fab4e8")
+	)
+	(wire
+		(pts
+			(xy 55.88 83.82) (xy 49.53 83.82)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "d18bef99-e122-4e28-ab9a-029805d4e0a3")
+	)
+	(wire
+		(pts
+			(xy 109.22 152.4) (xy 116.84 152.4)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "d2670283-5632-40db-be92-2f1caa5fe6d9")
+	)
+	(wire
+		(pts
+			(xy 116.84 162.56) (xy 114.3 162.56)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "d5657b71-38b9-4d39-b752-1000ba65e7ad")
+	)
+	(wire
+		(pts
+			(xy 257.81 139.2428) (xy 256.54 139.2428)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "d7b87c28-81f7-40ac-ab4a-d44198d537f7")
+	)
+	(wire
+		(pts
+			(xy 115.57 104.14) (xy 111.76 104.14)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "d7c605c4-fbaf-4ac7-9b89-936b172c70ef")
+	)
+	(wire
+		(pts
+			(xy 26.67 83.82) (xy 15.24 83.82)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "d9284d7b-7562-4266-8eba-698140de4448")
+	)
+	(wire
+		(pts
+			(xy 116.84 172.72) (xy 116.84 170.18)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "d9e36cb2-5cf6-40f2-a50f-635bd26f6720")
+	)
+	(wire
+		(pts
+			(xy 231.14 96.52) (xy 228.6 96.52)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "db431ff2-9e72-4c15-a218-45e099edb5ca")
+	)
+	(wire
+		(pts
+			(xy 81.28 99.06) (xy 81.28 83.82)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "db94ace0-abd2-4b0b-976d-907ee2e6f037")
+	)
+	(wire
+		(pts
+			(xy 259.08 101.6) (xy 261.62 101.6)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "dbb20fb7-601b-4090-a3ee-4caaa184e3d8")
+	)
+	(wire
+		(pts
+			(xy 256.54 68.1228) (xy 259.08 68.1228)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcd30f28-1966-4a57-87a4-d516e18fb47f")
+	)
+	(wire
+		(pts
+			(xy 208.28 25.4) (xy 215.9 25.4)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "dcf0c413-54e5-42f0-b5e5-0c1724241dbd")
+	)
+	(wire
+		(pts
+			(xy 26.67 102.87) (xy 15.24 102.87)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "e5cac59b-cffd-4e2d-b8d7-cde520cac3a9")
+	)
+	(wire
+		(pts
+			(xy 60.96 149.86) (xy 60.96 147.32)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "e7a78977-e958-4226-9ff8-d7a8c47ddda9")
+	)
+	(wire
+		(pts
+			(xy 167.64 99.06) (xy 177.8 99.06)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "e86d188a-5391-4d1e-8bb8-0db84a6473c4")
+	)
+	(wire
+		(pts
+			(xy 86.36 33.02) (xy 76.2 33.02)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "e88e97e2-2f3f-4f76-b986-5d086ff2a4c1")
+	)
+	(wire
+		(pts
+			(xy 231.14 109.22) (xy 251.46 109.22)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "e8bfd891-6ffa-4039-82c7-c5bf1a497cac")
+	)
+	(wire
+		(pts
+			(xy 228.6 132.08) (xy 231.14 132.08)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "e96b03ee-1e57-4c0e-aec2-2684e36c5411")
+	)
+	(wire
+		(pts
+			(xy 261.62 93.98) (xy 259.08 93.98)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "ea983672-9ae0-413f-96f7-496bc6a2a858")
+	)
+	(wire
+		(pts
+			(xy 251.46 63.5) (xy 251.46 60.96)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "ec2393e7-355d-4848-bf6a-25fa8346f197")
+	)
+	(wire
+		(pts
+			(xy 170.18 30.48) (xy 160.02 30.48)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "ecd45128-2ff1-4a48-b1c6-39edc611853b")
+	)
+	(wire
+		(pts
+			(xy 25.4 50.8) (xy 15.24 50.8)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "ecdb8494-34f4-4324-9502-000fcd824e14")
+	)
+	(wire
+		(pts
+			(xy 231.14 38.1) (xy 231.14 35.56)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "eecd55cb-b5db-4be0-b49c-b7480a455c8c")
+	)
+	(wire
+		(pts
+			(xy 208.28 132.08) (xy 215.9 132.08)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "efe505b4-faab-4eb0-b262-08553d4c930b")
+	)
+	(wire
+		(pts
+			(xy 251.46 132.08) (xy 251.46 134.62)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "effef166-cdde-479f-a8d2-e2975f2c3411")
+	)
+	(wire
+		(pts
+			(xy 149.86 45.72) (xy 160.02 45.72)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "f27bac13-3313-4a55-b479-3256797ad19c")
+	)
+	(wire
+		(pts
+			(xy 160.02 154.94) (xy 160.02 149.86)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "f45bac0d-4f57-44c6-8b51-0e2acff3aa36")
+	)
+	(wire
+		(pts
+			(xy 251.46 109.22) (xy 251.46 106.68)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "f4de5a47-c0d1-44d6-871f-77b3d865d106")
+	)
+	(wire
+		(pts
+			(xy 144.78 172.72) (xy 144.78 162.56)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "f56a179d-7d0a-429f-89e3-d19ab7d70ae7")
+	)
+	(wire
+		(pts
+			(xy 160.02 35.56) (xy 160.02 30.48)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "f5b92b53-975d-4c3a-b343-982eeea99928")
+	)
+	(wire
+		(pts
+			(xy 25.4 35.56) (xy 15.24 35.56)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "f67452ad-9720-40a5-bebe-854596f0db2b")
+	)
+	(wire
+		(pts
+			(xy 114.3 35.56) (xy 114.3 33.02)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "f8573001-0be3-4f14-ade9-ed988131f7d6")
+	)
+	(wire
+		(pts
+			(xy 86.36 30.48) (xy 76.2 30.48)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "f8fee673-9d08-4d24-9f97-50e4611019a3")
+	)
+	(wire
+		(pts
+			(xy 259.08 22.86) (xy 259.08 20.32)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "f93ac7eb-c3e7-4a0e-9c22-1a7d6038c907")
+	)
+	(wire
+		(pts
+			(xy 208.28 60.96) (xy 215.9 60.96)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "f99040ad-e2f9-430d-8dc4-8a7e3cec7760")
+	)
+	(wire
+		(pts
+			(xy 259.08 32.5628) (xy 257.81 32.5628)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "fa391c26-46e9-4c01-8933-bbe03c2e8e72")
+	)
+	(wire
+		(pts
+			(xy 215.9 109.22) (xy 231.14 109.22)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "fa8645e3-d74f-48fa-80c6-35139a8fc6bc")
+	)
+	(wire
+		(pts
+			(xy 86.36 48.26) (xy 76.2 48.26)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "fdc1dbf5-c444-4422-a2d3-cca4c132e909")
+	)
+	(wire
+		(pts
+			(xy 116.84 167.64) (xy 116.84 165.1)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "fdd86af1-803a-4d38-8849-8385f186daa3")
+	)
+	(wire
+		(pts
+			(xy 215.9 96.52) (xy 218.44 96.52)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "feedb7de-65d7-41e5-9200-fff4270448c4")
+	)
+	(wire
+		(pts
+			(xy 251.46 71.12) (xy 261.62 71.12)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "ff7703e9-05cc-43ba-8f48-c5d472beebec")
+	)
+	(text "As close to GL850G"
+		(exclude_from_sim no)
+		(at 149.86 58.42 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(bold yes)
+				(italic yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "27cb610e-a8cb-4761-ab3f-7569169d00d7")
+	)
+	(text "有设备接入时，LED1亮"
+		(exclude_from_sim no)
+		(at 135.89 186.69 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(bold yes)
+				(italic yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "c60722a3-c19d-4138-8828-d1b57a940e66")
+	)
+	(text "Gang Mode"
+		(exclude_from_sim no)
+		(at 143.51 180.34 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(bold yes)
+				(italic yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "cddad1ea-0bac-4727-92ec-70140f41704f")
+	)
+	(text "EC1 close to PIN24"
+		(exclude_from_sim no)
+		(at 105.41 58.42 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(bold yes)
+				(italic yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "e3a859fc-846a-4e49-bb68-b3a31cf0da5f")
+	)
+	(label "VCC"
+		(at 208.28 60.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "03dfdc1d-3315-4996-a7b5-ccce24a36417")
+	)
+	(label "USB_D4+"
+		(at 17.78 50.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "04055910-392a-4586-a7f1-7aa97628918d")
+	)
+	(label "AVDD"
+		(at 17.78 22.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "09039143-9e47-4d70-b997-3ea3337a11ba")
+	)
+	(label "USB_D1-"
+		(at 259.0178 30.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1c3e6193-684d-42d0-afc5-ad959805159c")
+	)
+	(label "VDP"
+		(at 15.24 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "237fcb01-abb4-43af-b20f-090d097af14b")
+	)
+	(label "RESET#"
+		(at 17.78 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "26aa6931-8c73-401b-816a-7b1ea09cd37f")
+	)
+	(label "USB_D3-"
+		(at 17.78 40.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "29a0b130-2fd7-4011-bef1-a00634a7c68c")
+	)
+	(label "VCC"
+		(at 208.28 132.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "382a7c6c-e571-4aa2-b076-772c42a994c9")
+	)
+	(label "USB_D4+"
+		(at 257.81 139.7 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3b9f2a62-446b-4945-b49f-f0d0b9b30885")
+	)
+	(label "DVDD"
+		(at 104.14 33.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "42298204-ec34-4cd8-a30b-20fc2d33ec75")
+	)
+	(label "X1"
+		(at 111.76 87.376 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4573cab6-dc04-4dd7-a59d-5d3112a259ad")
+	)
+	(label "USB_D2+"
+		(at 17.78 27.94 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4b4c854a-c964-4ca4-8723-e62456034e95")
+	)
+	(label "VCC"
+		(at 76.2 35.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4cc25b39-bdc7-4b60-a7d4-4712667bbe85")
+	)
+	(label "RREF"
+		(at 81.28 90.678 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4cd7ba68-17aa-44f5-ace7-2be02f2bdb88")
+	)
+	(label "PGANG"
+		(at 76.962 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "51aafc43-1e0a-4e63-8445-2eed8f451832")
+	)
+	(label "AVDD"
+		(at 17.78 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "53c50110-f40c-4922-ac77-3151c87e1315")
+	)
+	(label "USB_D4-"
+		(at 17.78 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "61e5af7e-1e47-46ad-b7bc-216757f43b1f")
+	)
+	(label "RESET#"
+		(at 157.48 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "63276844-cc34-4951-87f8-15c5f217a1a2")
+	)
+	(label "X2"
+		(at 127 87.376 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "65626133-3fec-466b-b9ef-752f71f0f6d1")
+	)
+	(label ""
+		(at 76.2 157.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6b4d49d4-04f2-44a4-9855-14c8bebdfd87")
+	)
+	(label "USB_D1-"
+		(at 76.2 25.4 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6e0233fe-5765-426a-a225-e0779fab8e14")
+	)
+	(label "X2"
+		(at 17.78 38.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6ff55294-1c5c-4bfe-8885-7082fbd8138d")
+	)
+	(label "RREF"
+		(at 17.78 30.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "756f0286-713d-4c7b-8280-f1e6ac992841")
+	)
+	(label "USB_D3+"
+		(at 17.78 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "77a9f4d2-eada-4894-ae08-6828c2710942")
+	)
+	(label "DVDD"
+		(at 76.2 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7b6d6673-8e81-4417-adc0-ee16e5052099")
+	)
+	(label "USB_D3-"
+		(at 259.08 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7e68437e-03bc-4f85-8511-52a38ecef77a")
+	)
+	(label "USB_D2-"
+		(at 17.78 25.4 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "807cd64f-3838-49cc-9843-2f5cde963e74")
+	)
+	(label "USB_D1+"
+		(at 259.08 33.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "813781a9-50a9-4807-b2dc-ae13d57419f1")
+	)
+	(label "DP0"
+		(at 76.2 27.94 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8ee8157e-b5aa-4198-843c-335f54df7ee9")
+	)
+	(label "USB_D4-"
+		(at 259.08 137.16 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "90051aed-fa12-4fe2-85de-7f91f6a50daa")
+	)
+	(label "AVDD"
+		(at 17.78 33.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "90d059cb-2c1b-4703-9d0a-56a94bfafa23")
+	)
+	(label "PGANG"
+		(at 134.62 172.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "96192635-7f04-464f-9f8f-5ad7713a7518")
+	)
+	(label "DVDD"
+		(at 76.2 33.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a032be89-6cbf-4f76-a3b2-05c41b099b6b")
+	)
+	(label "DP0"
+		(at 80.01 160.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a2661b49-8257-4ebf-bc8b-3ae53c2f6014")
+	)
+	(label "DGND"
+		(at 76.2 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a734c5da-d43d-4e07-8003-c894c7867273")
+	)
+	(label "USB_D1+"
+		(at 76.2 22.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b2263303-843e-429f-91a8-54bdaf506cc5")
+	)
+	(label "VCC"
+		(at 208.28 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b9a1f848-84bf-40a7-b0b0-7693450249b6")
+	)
+	(label "X1"
+		(at 17.78 35.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cbe92a54-52e0-47a1-bd72-113cbd8a388b")
+	)
+	(label "VCC"
+		(at 208.28 25.4 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ccafb2c4-bf33-48bc-bdf2-3f3a75e342b0")
+	)
+	(label "USB_D2-"
+		(at 260.35 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cd6e4602-f4e6-4540-b17b-468125e9de04")
+	)
+	(label "DM0"
+		(at 76.2 30.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d1876f26-c7b7-49d2-8e6a-9ce51bb69cb7")
+	)
+	(label "DM0"
+		(at 80.01 157.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d855bc19-2ef7-4952-b874-acfaa304eb41")
+	)
+	(label "OVCUR1#"
+		(at 15.24 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f3aa4647-19dc-49a1-a9de-4401234bfec8")
+	)
+	(label "USB_D3+"
+		(at 257.81 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ffe6a27e-0b1f-4f6e-b190-6caab94df064")
+	)
+	(label "USB_D2+"
+		(at 259.08 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fff1f6dd-ffb2-46c7-9285-ea35cc832eaf")
+	)
+	(hierarchical_label "USB_HUB_OUT_D2_P"
+		(shape bidirectional)
+		(at 256.54 68.1228 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "124f9eaa-34d7-4680-ab57-9dddab1515f4")
+	)
+	(hierarchical_label "GND"
+		(shape passive)
+		(at 86.36 165.1 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4922028f-833b-40fa-a1a7-26175c98f660")
+	)
+	(hierarchical_label "USB_HUB_OUT_D4_P"
+		(shape bidirectional)
+		(at 255.27 139.2428 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4b1284e3-1cdd-41dd-9a23-d57dac7da3d3")
+	)
+	(hierarchical_label "USB_HUB_OUT_D1_P"
+		(shape bidirectional)
+		(at 257.81 32.5628 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "67cebab6-f4d1-4285-af46-82ebe4df12f3")
+	)
+	(hierarchical_label "USB_HUB_OUT_D4_N"
+		(shape bidirectional)
+		(at 256.54 136.7028 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8150e2aa-5012-49b6-b502-aaa751bf78f2")
+	)
+	(hierarchical_label "USB_HUB_OUT_D3_P"
+		(shape bidirectional)
+		(at 255.27 103.6828 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "909169d5-7a7b-4685-ad81-2fd777df596f")
+	)
+	(hierarchical_label "USB_HUB_OUT_D3_N"
+		(shape bidirectional)
+		(at 256.54 101.1428 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "91ecd1d1-91e3-4a96-9bba-33547708ea3a")
+	)
+	(hierarchical_label "USB_HUB_IN_D_N"
+		(shape bidirectional)
+		(at 76.2 157.48 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "94113c4f-29e5-4c67-a737-9656301b98bf")
+	)
+	(hierarchical_label "USB_HUB_OUT_D2_N"
+		(shape bidirectional)
+		(at 257.81 65.5828 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "afad68e8-89f2-4612-8728-3e63b3438098")
+	)
+	(hierarchical_label "+5V"
+		(shape input)
+		(at 86.36 154.94 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b0953201-8081-4d0c-aa90-0040a081dc6e")
+	)
+	(hierarchical_label "USB_HUB_OUT_D1_N"
+		(shape bidirectional)
+		(at 257.5289 30.1416 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bc952501-9379-467b-8aeb-16d0cf7ead51")
+	)
+	(hierarchical_label "USB_HUB_IN_D_P"
+		(shape bidirectional)
+		(at 76.2 160.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d67694ab-5eb2-48fd-a2e0-184ba878be60")
+	)
+	(symbol
+		(lib_id "GL850G-USB2.0-HUB-altium-import:root_0_C-0603")
+		(at 88.9 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00a52f4b-aa9d-4ea2-9ad7-3bab88433ea3")
+		(property "Reference" "C6"
+			(at 93.98 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 93.98 58.166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 88.9 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5e595aea-83a6-427a-97ac-2dbb5bb61ec7")
+		)
+		(pin "1"
+			(uuid "94753031-f861-496e-84df-6013f29568a6")
+		)
+		(instances
+			(project ""
+				(path "/1a44a526-f3e6-4932-9286-6f7d2da90d3a/ff40a903-5374-4c95-a031-f9657f1b836d"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+			(project "GL850G-USB2.0-HUB"
+				(path "/ec9f86e1-2bae-4ae4-97bb-faf22660c9e3"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GL850G-USB2.0-HUB-altium-import:root_2_mirrored_CNS-USBminiAB-A")
+		(at 93.98 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
+		(uuid "011f83fb-11ca-40df-a3ae-38e94eb9eeec")
+		(property "Reference" "UP1"
+			(at 99.06 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "SMD USB Micro"
+			(at 109.22 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "Micro_USB_MK5P"
+			(at 93.98 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 93.98 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "0"
+			(uuid "f0c3014d-9d9b-4cd3-8cac-c94d514afbfd")
+		)
+		(pin "0"
+			(uuid "43ff1e0d-bfd5-46b7-ba19-0c8b3588edb4")
+		)
+		(pin "1"
+			(uuid "a7259a5b-530b-4b03-855f-a0dff9cee254")
+		)
+		(pin "5"
+			(uuid "638efdf5-b459-48ca-87a6-74ce5c364784")
+		)
+		(pin "0"
+			(uuid "b70a68ab-f8cc-446a-b5ff-a2fc5a96d970")
+		)
+		(pin "0"
+			(uuid "715b1628-7872-4b53-b61b-7675ddd9cc55")
+		)
+		(pin "0"
+			(uuid "c73e8261-217f-48bf-b18f-3727eaaf6f3f")
+		)
+		(pin "0"
+			(uuid "e189b079-21b1-4948-adb5-6360b612a516")
+		)
+		(pin "4"
+			(uuid "cd3fa6e5-6cfd-4b80-979d-574afab07aec")
+		)
+		(pin "3"
+			(uuid "73ad9a9e-c143-47ab-94ff-e1ab78556d40")
+		)
+		(pin "2"
+			(uuid "e6a72939-f421-4359-8a3e-5e931237384e")
+		)
+		(instances
+			(project "GL850G-USB2.0-HUB"
+				(path "/ec9f86e1-2bae-4ae4-97bb-faf22660c9e3"
+					(reference "UP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GL850G-USB2.0-HUB-altium-import:root_0_C-0603")
+		(at 147.32 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "013dab00-4bd0-40a1-8045-0252a86b9b9b")
+		(property "Reference" "C2"
+			(at 151.13 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 151.13 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 147.32 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "83547516-7ff2-460e-896d-c088c95bc41c")
+		)
+		(pin "1"
+			(uuid "13169cf5-0a97-44f7-914e-6403c6574943")
+		)
+		(instances
+			(project ""
+				(path "/1a44a526-f3e6-4932-9286-6f7d2da90d3a/ff40a903-5374-4c95-a031-f9657f1b836d"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+			(project "GL850G-USB2.0-HUB"
+				(path "/ec9f86e1-2bae-4ae4-97bb-faf22660c9e3"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GL850G-USB2.0-HUB-altium-import:root_0_USBA-A")
+		(at 269.24 20.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "02f1362d-0c4a-4bd8-b178-1cada33325d0")
+		(property "Reference" "DOWN1"
+			(at 269.24 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "USBA-A"
+			(at 269.24 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 269.24 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 269.24 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "G1"
+			(uuid "fd70a53a-e908-4bde-a1a6-fb20cbb30483")
+		)
+		(pin "1"
+			(uuid "d3824068-96d2-471c-9c0d-a01faaeff6ef")
+		)
+		(pin "4"
+			(uuid "a82ddc3d-91f8-407a-8120-a78cdb4d253b")
+		)
+		(pin "G2"
+			(uuid "d67f20ff-5b2e-48db-914d-8c4db85ec15c")
+		)
+		(pin "2"
+			(uuid "bdb69998-0a5d-4b22-ad9c-90a4f21dd435")
+		)
+		(pin "3"
+			(uuid "6ce85c4d-8b1f-4c51-b94c-e489068c0d2d")
+		)
+		(instances
+			(project ""
+				(path "/1a44a526-f3e6-4932-9286-6f7d2da90d3a/ff40a903-5374-4c95-a031-f9657f1b836d"
+					(reference "DOWN1")
+					(unit 1)
+				)
+			)
+			(project "GL850G-USB2.0-HUB"
+				(path "/ec9f86e1-2bae-4ae4-97bb-faf22660c9e3"
+					(reference "DOWN1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GL850G-USB2.0-HUB-altium-import:DGND_POWER_GROUND")
+		(at 215.9 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0527c30a-81dd-4230-91c5-00ccda0dfd47")
+		(property "Reference" "#PWR0121"
+			(at 215.9 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "DGND"
+			(at 215.9 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 215.9 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "d2ad9376-0054-4843-a591-2474b1625019")
+		)
+		(instances
+			(project ""
+				(path "/1a44a526-f3e6-4932-9286-6f7d2da90d3a/ff40a903-5374-4c95-a031-f9657f1b836d"
+					(reference "#PWR0121")
+					(unit 1)
+				)
+			)
+			(project "GL850G-USB2.0-HUB"
+				(path "/ec9f86e1-2bae-4ae4-97bb-faf22660c9e3"
+					(reference "#PWR0121")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GL850G-USB2.0-HUB-altium-import:DGND_POWER_GROUND")
+		(at 119.38 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0570e035-5fe6-461b-93c3-cd39b3844bd5")
+		(property "Reference" "#PWR0113"
+			(at 119.38 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "DGND"
+			(at 119.38 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "b3559b8f-29e5-4253-89df-3ef5450452f8")
+		)
+		(instances
+			(project ""
+				(path "/1a44a526-f3e6-4932-9286-6f7d2da90d3a/ff40a903-5374-4c95-a031-f9657f1b836d"
+					(reference "#PWR0113")
+					(unit 1)
+				)
+			)
+			(project "GL850G-USB2.0-HUB"
+				(path "/ec9f86e1-2bae-4ae4-97bb-faf22660c9e3"
+					(reference "#PWR0113")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GL850G-USB2.0-HUB-altium-import:root_0_CE-100UF/16V")
+		(at 213.36 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0f8e4ddb-11cf-459a-8709-4e7225037c77")
+		(property "Reference" "EC4"
+			(at 218.44 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100uF"
+			(at 218.44 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D"
+			(at 213.36 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 213.36 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "299b3c19-332c-4458-ae0a-11090613026f")
+		)
+		(pin "1"
+			(uuid "6c137318-7a16-4a1d-9ef9-37b3bf6ee3e7")
+		)
+		(instances
+			(project ""
+				(path "/1a44a526-f3e6-4932-9286-6f7d2da90d3a/ff40a903-5374-4c95-a031-f9657f1b836d"
+					(reference "EC4")
+					(unit 1)
+				)
+			)
+			(project "GL850G-USB2.0-HUB"
+				(path "/ec9f86e1-2bae-4ae4-97bb-faf22660c9e3"
+					(reference "EC4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GL850G-USB2.0-HUB-altium-import:root_1_FB-0805")
+		(at 220.98 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "108f6c59-2c56-4f0b-9875-0f4d1b806d23")
+		(property "Reference" "LB4"
+			(at 215.9 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "FB"
+			(at 227.33 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+			(at 220.98 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 220.98 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5f3627dd-d770-458b-a02c-36915aaeab81")
+		)
+		(pin "1"
+			(uuid "938a9b8a-62ea-49fe-b49c-ca9a512dd107")
+		)
+		(instances
+			(project ""
+				(path "/1a44a526-f3e6-4932-9286-6f7d2da90d3a/ff40a903-5374-4c95-a031-f9657f1b836d"
+					(reference "LB4")
+					(unit 1)
+				)
+			)
+			(project "GL850G-USB2.0-HUB"
+				(path "/ec9f86e1-2bae-4ae4-97bb-faf22660c9e3"
+					(reference "LB4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GL850G-USB2.0-HUB-altium-import:root_1_R-0603")
+		(at 24.13 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
+		(uuid "12903c7b-1c8f-4c18-9598-7f8b04f16daa")
+		(property "Reference" "R6"
+			(at 27.94 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10K"
+			(at 27.94 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 24.13 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 24.13 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ce673819-8c5c-45a5-b634-bc9322f28093")
+		)
+		(pin "2"
+			(uuid "dd65f319-1ca7-458e-8c28-7c64ff239689")
+		)
+		(instances
+			(project ""
+				(path "/1a44a526-f3e6-4932-9286-6f7d2da90d3a/ff40a903-5374-4c95-a031-f9657f1b836d"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+			(project "GL850G-USB2.0-HUB"
+				(path "/ec9f86e1-2bae-4ae4-97bb-faf22660c9e3"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GL850G-USB2.0-HUB-altium-import:root_0_C-0603")
+		(at 228.6 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "130db5d3-3bfb-43f2-8e4a-4abd2cc77bdd")
+		(property "Reference" "C12"
+			(at 232.41 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 232.41 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 228.6 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 228.6 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c14c16d1-f118-4a03-8adb-65cac76b173c")
+		)
+		(pin "2"
+			(uuid "913074b5-9a44-4d17-b473-54e6140f89f7")
+		)
+		(instances
+			(project ""
+				(path "/1a44a526-f3e6-4932-9286-6f7d2da90d3a/ff40a903-5374-4c95-a031-f9657f1b836d"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+			(project "GL850G-USB2.0-HUB"
+				(path "/ec9f86e1-2bae-4ae4-97bb-faf22660c9e3"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GL850G-USB2.0-HUB-altium-import:VCC_CIRCLE")
+		(at 55.88 83.82 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
+		(uuid "15dc4872-87c7-4c9b-ac26-a75582dd9fb7")
+		(property "Reference" "#PWR0109"
+			(at 55.88 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 55.88 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "53ac2c72-1053-4ad5-88c2-7bbc0bc004bf")
+		)
+		(instances
+			(project ""
+				(path "/1a44a526-f3e6-4932-9286-6f7d2da90d3a/ff40a903-5374-4c95-a031-f9657f1b836d"
+					(reference "#PWR0109")
+					(unit 1)
+				)
+			)
+			(project "GL850G-USB2.0-HUB"
+				(path "/ec9f86e1-2bae-4ae4-97bb-faf22660c9e3"
+					(reference "#PWR0109")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GL850G-USB2.0-HUB-altium-import:DGND_POWER_GROUND")
+		(at 91.44 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1ddea96a-d287-44d0-b2d5-f3819c175125")
+		(property "Reference" "#PWR0108"
+			(at 91.44 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "DGND"
+			(at 91.44 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "8a1a7d59-dfb8-405d-8854-f504d7607208")
+		)
+		(instances
+			(project ""
+				(path "/1a44a526-f3e6-4932-9286-6f7d2da90d3a/ff40a903-5374-4c95-a031-f9657f1b836d"
+					(reference "#PWR0108")
+					(unit 1)
+				)
+			)
+			(project "GL850G-USB2.0-HUB"
+				(path "/ec9f86e1-2bae-4ae4-97bb-faf22660c9e3"
+					(reference "#PWR0108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GL850G-USB2.0-HUB-altium-import:root_0_CE-100UF/16V")
+		(at 213.36 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "24dfc77b-3379-4223-83cd-2d9a393d0427")
+		(property "Reference" "EC5"
+			(at 218.44 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100uF"
+			(at 218.44 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D"
+			(at 213.36 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 213.36 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2eb890fb-e08c-4d02-a35e-cc15d47faca9")
+		)
+		(pin "1"
+			(uuid "99450500-2ce6-4ca7-93cd-55f2180102e1")
+		)
+		(instances
+			(project ""
+				(path "/1a44a526-f3e6-4932-9286-6f7d2da90d3a/ff40a903-5374-4c95-a031-f9657f1b836d"
+					(reference "EC5")
+					(unit 1)
+				)
+			)
+			(project "GL850G-USB2.0-HUB"
+				(path "/ec9f86e1-2bae-4ae4-97bb-faf22660c9e3"
+					(reference "EC5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GL850G-USB2.0-HUB-altium-import:root_1_R-0603")
+		(at 142.24 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2e47d864-cc7e-4a0f-9bc7-29487359bfdb")
+		(property "Reference" "R4"
+			(at 146.05 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100K"
+			(at 146.05 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 142.24 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 142.24 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8df8237e-0be8-4e38-abf9-fb773ab6239e")
+		)
+		(pin "2"
+			(uuid "e6af9404-276d-4006-9894-d7ebaac9ead3")
+		)
+		(instances
+			(project ""
+				(path "/1a44a526-f3e6-4932-9286-6f7d2da90d3a/ff40a903-5374-4c95-a031-f9657f1b836d"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+			(project "GL850G-USB2.0-HUB"
+				(path "/ec9f86e1-2bae-4ae4-97bb-faf22660c9e3"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GL850G-USB2.0-HUB-altium-import:EGND_EARTH")
+		(at 30.48 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "33590eaf-e262-45eb-8dee-28d2887f9ae9")
+		(property "Reference" "#PWR0105"
+			(at 30.48 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "EGND"
+			(at 30.48 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 30.48 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "3c5f48d7-e80a-41ad-8e05-aac1b03a48f3")
+		)
+		(instances
+			(project ""
+				(path "/1a44a526-f3e6-4932-9286-6f7d2da90d3a/ff40a903-5374-4c95-a031-f9657f1b836d"
+					(reference "#PWR0105")
+					(unit 1)
+				)
+			)
+			(project "GL850G-USB2.0-HUB"
+				(path "/ec9f86e1-2bae-4ae4-97bb-faf22660c9e3"
+					(reference "#PWR0105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GL850G-USB2.0-HUB-altium-import:root_0_USBA-A")
+		(at 269.24 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "35d04810-7e26-4641-829a-6dfb78222772")
+		(property "Reference" "DOWN3"
+			(at 269.24 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "USBA-A"
+			(at 269.24 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 269.24 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 269.24 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "97fbf4da-cc26-401f-9af0-9c7076223e00")
+		)
+		(pin "G2"
+			(uuid "0e14be77-0fc4-466f-9f87-7a45b6df5046")
+		)
+		(pin "G1"
+			(uuid "40bbc7ac-d851-421d-8c77-cac547dd2036")
+		)
+		(pin "4"
+			(uuid "11739082-f614-4207-9ed1-72f6b14a58ff")
+		)
+		(pin "2"
+			(uuid "969ea696-ec77-4e1d-be26-48ad3727bafb")
+		)
+		(pin "1"
+			(uuid "57102ed6-743b-4eb7-9db4-0c64894f2ee9")
+		)
+		(instances
+			(project ""
+				(path "/1a44a526-f3e6-4932-9286-6f7d2da90d3a/ff40a903-5374-4c95-a031-f9657f1b836d"
+					(reference "DOWN3")
+					(unit 1)
+				)
+			)
+			(project "GL850G-USB2.0-HUB"
+				(path "/ec9f86e1-2bae-4ae4-97bb-faf22660c9e3"
+					(reference "DOWN3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GL850G-USB2.0-HUB-altium-import:root_1_R-0603")
+		(at 165.1 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "370cc0b6-9f54-4896-bf00-8a5f5a936c15")
+		(property "Reference" "R1"
+			(at 168.91 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10K"
+			(at 168.91 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 165.1 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b6b83de6-f20c-4b30-ae5e-d3ad39e913f7")
+		)
+		(pin "1"
+			(uuid "7a80d507-1619-406a-8b2e-79e5a0864a53")
+		)
+		(instances
+			(project ""
+				(path "/1a44a526-f3e6-4932-9286-6f7d2da90d3a/ff40a903-5374-4c95-a031-f9657f1b836d"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+			(project "GL850G-USB2.0-HUB"
+				(path "/ec9f86e1-2bae-4ae4-97bb-faf22660c9e3"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GL850G-USB2.0-HUB-altium-import:root_0_CE-100UF/16V")
+		(at 213.36 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "38991890-318b-441d-9028-fb1b9510e3ff")
+		(property "Reference" "EC3"
+			(at 218.44 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100uF"
+			(at 218.44 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D"
+			(at 213.36 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 213.36 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eba97f55-0a29-4972-aee4-10b1a5bc7db9")
+		)
+		(pin "2"
+			(uuid "affeb8c1-f24a-437e-bc75-d4d539779465")
+		)
+		(instances
+			(project ""
+				(path "/1a44a526-f3e6-4932-9286-6f7d2da90d3a/ff40a903-5374-4c95-a031-f9657f1b836d"
+					(reference "EC3")
+					(unit 1)
+				)
+			)
+			(project "GL850G-USB2.0-HUB"
+				(path "/ec9f86e1-2bae-4ae4-97bb-faf22660c9e3"
+					(reference "EC3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GL850G-USB2.0-HUB-altium-import:DVDD_CIRCLE")
+		(at 114.3 22.86 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3b9029f1-a98c-43e3-8b5d-2bf064ffbe87")
+		(property "Reference" "#PWR0112"
+			(at 114.3 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "DVDD"
+			(at 114.3 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 114.3 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "de3828dc-4d8f-4e33-a130-198a6f2adf5b")
+		)
+		(instances
+			(project ""
+				(path "/1a44a526-f3e6-4932-9286-6f7d2da90d3a/ff40a903-5374-4c95-a031-f9657f1b836d"
+					(reference "#PWR0112")
+					(unit 1)
+				)
+			)
+			(project "GL850G-USB2.0-HUB"
+				(path "/ec9f86e1-2bae-4ae4-97bb-faf22660c9e3"
+					(reference "#PWR0112")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GL850G-USB2.0-HUB-altium-import:DGND_POWER_GROUND")
+		(at 215.9 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3bb30b9c-82fd-4536-ab44-ff926abdc5ce")
+		(property "Reference" "#PWR0127"
+			(at 215.9 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "DGND"
+			(at 215.9 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 215.9 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "9c1199f5-cbec-4480-925a-53561ba63c9e")
+		)
+		(instances
+			(project ""
+				(path "/1a44a526-f3e6-4932-9286-6f7d2da90d3a/ff40a903-5374-4c95-a031-f9657f1b836d"
+					(reference "#PWR0127")
+					(unit 1)
+				)
+			)
+			(project "GL850G-USB2.0-HUB"
+				(path "/ec9f86e1-2bae-4ae4-97bb-faf22660c9e3"
+					(reference "#PWR0127")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GL850G-USB2.0-HUB-altium-import:root_1_FB-0805")
+		(at 220.98 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3e05941c-6cc4-4240-93f5-42150a3fda2b")
+		(property "Reference" "LB5"
+			(at 215.9 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "FB"
+			(at 227.33 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+			(at 220.98 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 220.98 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "832c1bde-969f-42d3-ad02-722296da4978")
+		)
+		(pin "1"
+			(uuid "eb48fdaf-94b5-4c04-a854-ecf46ee467d5")
+		)
+		(instances
+			(project ""
+				(path "/1a44a526-f3e6-4932-9286-6f7d2da90d3a/ff40a903-5374-4c95-a031-f9657f1b836d"
+					(reference "LB5")
+					(unit 1)
+				)
+			)
+			(project "GL850G-USB2.0-HUB"
+				(path "/ec9f86e1-2bae-4ae4-97bb-faf22660c9e3"
+					(reference "LB5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GL850G-USB2.0-HUB-altium-import:VCC_CIRCLE")
+		(at 167.64 83.82 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "41998162-962a-42ba-be8e-32848bfde80d")
+		(property "Reference" "#PWR0130"
+			(at 167.64 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 167.64 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "d68c09cb-42ae-4169-9de3-956970366c3e")
+		)
+		(instances
+			(project ""
+				(path "/1a44a526-f3e6-4932-9286-6f7d2da90d3a/ff40a903-5374-4c95-a031-f9657f1b836d"
+					(reference "#PWR0130")
+					(unit 1)
+				)
+			)
+			(project "GL850G-USB2.0-HUB"
+				(path "/ec9f86e1-2bae-4ae4-97bb-faf22660c9e3"
+					(reference "#PWR0130")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GL850G-USB2.0-HUB-altium-import:EGND_EARTH")
+		(at 259.08 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "483df63e-7d2e-4911-9daf-300d1f2f4e1d")
+		(property "Reference" "#PWR0117"
+			(at 259.08 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "EGND"
+			(at 259.08 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 259.08 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "7c6d7778-3a60-4de3-9abe-0da555813082")
+		)
+		(instances
+			(project ""
+				(path "/1a44a526-f3e6-4932-9286-6f7d2da90d3a/ff40a903-5374-4c95-a031-f9657f1b836d"
+					(reference "#PWR0117")
+					(unit 1)
+				)
+			)
+			(project "GL850G-USB2.0-HUB"
+				(path "/ec9f86e1-2bae-4ae4-97bb-faf22660c9e3"
+					(reference "#PWR0117")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GL850G-USB2.0-HUB-altium-import:AVDD_CIRCLE")
+		(at 134.62 22.86 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4a5f7149-e47c-41e2-8e20-25eef0b11b74")
+		(property "Reference" "#PWR0131"
+			(at 134.62 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AVDD"
+			(at 134.62 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "39ba668d-2c80-45ab-a552-0c330ecf971d")
+		)
+		(instances
+			(project ""
+				(path "/1a44a526-f3e6-4932-9286-6f7d2da90d3a/ff40a903-5374-4c95-a031-f9657f1b836d"
+					(reference "#PWR0131")
+					(unit 1)
+				)
+			)
+			(project "GL850G-USB2.0-HUB"
+				(path "/ec9f86e1-2bae-4ae4-97bb-faf22660c9e3"
+					(reference "#PWR0131")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GL850G-USB2.0-HUB-altium-import:EGND_EARTH")
+		(at 259.08 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4a6dc27a-c2b2-43ce-b7fa-48b2d71a710b")
+		(property "Reference" "#PWR0120"
+			(at 259.08 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "EGND"
+			(at 259.08 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 259.08 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "450d1350-8372-46b1-bf1d-cf70910ec8f2")
+		)
+		(instances
+			(project ""
+				(path "/1a44a526-f3e6-4932-9286-6f7d2da90d3a/ff40a903-5374-4c95-a031-f9657f1b836d"
+					(reference "#PWR0120")
+					(unit 1)
+				)
+			)
+			(project "GL850G-USB2.0-HUB"
+				(path "/ec9f86e1-2bae-4ae4-97bb-faf22660c9e3"
+					(reference "#PWR0120")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GL850G-USB2.0-HUB-altium-import:root_0_C-0603")
+		(at 228.6 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4bbaa6db-9363-4ca9-9e93-3eaa79b78d4d")
+		(property "Reference" "C11"
+			(at 232.41 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 232.41 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 228.6 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 228.6 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5fe90091-b674-4115-84a3-cf145d32ab5f")
+		)
+		(pin "2"
+			(uuid "9e3469bd-81c4-4f95-a1a9-2b318fa1e53c")
+		)
+		(instances
+			(project ""
+				(path "/1a44a526-f3e6-4932-9286-6f7d2da90d3a/ff40a903-5374-4c95-a031-f9657f1b836d"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+			(project "GL850G-USB2.0-HUB"
+				(path "/ec9f86e1-2bae-4ae4-97bb-faf22660c9e3"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GL850G-USB2.0-HUB-altium-import:EGND_EARTH")
+		(at 259.08 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5541a68d-6a10-4756-a0ea-7563afe5b7b9")
+		(property "Reference" "#PWR0123"
+			(at 259.08 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "EGND"
+			(at 259.08 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 259.08 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "e210c204-37bf-4576-b086-84cc00712d5c")
+		)
+		(instances
+			(project ""
+				(path "/1a44a526-f3e6-4932-9286-6f7d2da90d3a/ff40a903-5374-4c95-a031-f9657f1b836d"
+					(reference "#PWR0123")
+					(unit 1)
+				)
+			)
+			(project "GL850G-USB2.0-HUB"
+				(path "/ec9f86e1-2bae-4ae4-97bb-faf22660c9e3"
+					(reference "#PWR0123")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GL850G-USB2.0-HUB-altium-import:root_0_XD-49US-A")
+		(at 118.11 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "56b5cd51-165c-44f3-952e-eaaae81ae284")
+		(property "Reference" "X1"
+			(at 118.11 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "12MHz"
+			(at 115.57 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Crystal:Crystal_SMD_HC49-SD"
+			(at 118.11 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 118.11 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "483f8dc6-c4d3-43a7-b2f0-8eb0bc37e40e")
+		)
+		(pin "2"
+			(uuid "aff3e706-65db-43b7-9888-778560b44afd")
+		)
+		(instances
+			(project ""
+				(path "/1a44a526-f3e6-4932-9286-6f7d2da90d3a/ff40a903-5374-4c95-a031-f9657f1b836d"
+					(reference "X1")
+					(unit 1)
+				)
+			)
+			(project "GL850G-USB2.0-HUB"
+				(path "/ec9f86e1-2bae-4ae4-97bb-faf22660c9e3"
+					(reference "X1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GL850G-USB2.0-HUB-altium-import:EGND_EARTH")
+		(at 259.08 20.32 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "58976f40-5c0c-4a03-a3f9-15c83cb00af2")
+		(property "Reference" "#PWR0124"
+			(at 259.08 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "EGND"
+			(at 259.08 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 259.08 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "92dee675-7469-4d9b-b455-9eb585e8b56a")
+		)
+		(instances
+			(project ""
+				(path "/1a44a526-f3e6-4932-9286-6f7d2da90d3a/ff40a903-5374-4c95-a031-f9657f1b836d"
+					(reference "#PWR0124")
+					(unit 1)
+				)
+			)
+			(project "GL850G-USB2.0-HUB"
+				(path "/ec9f86e1-2bae-4ae4-97bb-faf22660c9e3"
+					(reference "#PWR0124")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GL850G-USB2.0-HUB-altium-import:DGND_POWER_GROUND")
+		(at 76.2 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5995d66d-926b-4652-908c-ca4fbb1fd185")
+		(property "Reference" "#PWR0104"
+			(at 76.2 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "DGND"
+			(at 76.2 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "16cc14a9-38ae-4af8-9884-b652c4a90c18")
+		)
+		(instances
+			(project ""
+				(path "/1a44a526-f3e6-4932-9286-6f7d2da90d3a/ff40a903-5374-4c95-a031-f9657f1b836d"
+					(reference "#PWR0104")
+					(unit 1)
+				)
+			)
+			(project "GL850G-USB2.0-HUB"
+				(path "/ec9f86e1-2bae-4ae4-97bb-faf22660c9e3"
+					(reference "#PWR0104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GL850G-USB2.0-HUB-altium-import:root_0_C-0603")
+		(at 167.64 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5b8cfbed-31b9-4bde-8f2d-b750fe45e4aa")
+		(property "Reference" "C4"
+			(at 171.45 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 171.45 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 167.64 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "af8f5d86-ab0d-4827-8484-c4b1836c22bb")
+		)
+		(pin "1"
+			(uuid "a2424bfb-c785-4b07-b726-9bfba74025a4")
+		)
+		(instances
+			(project ""
+				(path "/1a44a526-f3e6-4932-9286-6f7d2da90d3a/ff40a903-5374-4c95-a031-f9657f1b836d"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+			(project "GL850G-USB2.0-HUB"
+				(path "/ec9f86e1-2bae-4ae4-97bb-faf22660c9e3"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GL850G-USB2.0-HUB-altium-import:EGND_EARTH")
+		(at 259.08 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6019b6ed-b9a0-4291-bf48-84f6fd781fd5")
+		(property "Reference" "#PWR0125"
+			(at 259.08 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "EGND"
+			(at 259.08 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 259.08 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "1f934740-b780-49ad-b510-be24099a6307")
+		)
+		(instances
+			(project ""
+				(path "/1a44a526-f3e6-4932-9286-6f7d2da90d3a/ff40a903-5374-4c95-a031-f9657f1b836d"
+					(reference "#PWR0125")
+					(unit 1)
+				)
+			)
+			(project "GL850G-USB2.0-HUB"
+				(path "/ec9f86e1-2bae-4ae4-97bb-faf22660c9e3"
+					(reference "#PWR0125")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GL850G-USB2.0-HUB-altium-import:DGND_POWER_GROUND")
+		(at 149.86 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "60b523e7-d4f8-4d7a-8985-90b5f36d93e4")
+		(property "Reference" "#PWR0128"
+			(at 149.86 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "DGND"
+			(at 149.86 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 149.86 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "ac52c1f7-cf9b-4423-bbaa-4970645152f4")
+		)
+		(instances
+			(project ""
+				(path "/1a44a526-f3e6-4932-9286-6f7d2da90d3a/ff40a903-5374-4c95-a031-f9657f1b836d"
+					(reference "#PWR0128")
+					(unit 1)
+				)
+			)
+			(project "GL850G-USB2.0-HUB"
+				(path "/ec9f86e1-2bae-4ae4-97bb-faf22660c9e3"
+					(reference "#PWR0128")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GL850G-USB2.0-HUB-altium-import:root_3_LED-3mm_0")
+		(at 162.56 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "60cc9cff-cdf5-4e9b-9e79-573a40d84dc3")
+		(property "Reference" "LED1"
+			(at 163.83 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "PWR_LED"
+			(at 163.83 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 162.56 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 162.56 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5328c9ce-1f7f-4b3c-a34f-8b61d39ea20f")
+		)
+		(pin "1"
+			(uuid "c5a59a10-36f5-4627-b072-ec729516bf48")
+		)
+		(instances
+			(project ""
+				(path "/1a44a526-f3e6-4932-9286-6f7d2da90d3a/ff40a903-5374-4c95-a031-f9657f1b836d"
+					(reference "LED1")
+					(unit 1)
+				)
+			)
+			(project "GL850G-USB2.0-HUB"
+				(path "/ec9f86e1-2bae-4ae4-97bb-faf22660c9e3"
+					(reference "LED1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GL850G-USB2.0-HUB-altium-import:EGND_EARTH")
+		(at 259.08 91.44 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6a5abb05-e472-40af-a499-8fc4e89a7632")
+		(property "Reference" "#PWR0118"
+			(at 259.08 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "EGND"
+			(at 259.08 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 259.08 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "40c4ca2f-0c2d-4022-8f3c-d8f6a2b40959")
+		)
+		(instances
+			(project ""
+				(path "/1a44a526-f3e6-4932-9286-6f7d2da90d3a/ff40a903-5374-4c95-a031-f9657f1b836d"
+					(reference "#PWR0118")
+					(unit 1)
+				)
+			)
+			(project "GL850G-USB2.0-HUB"
+				(path "/ec9f86e1-2bae-4ae4-97bb-faf22660c9e3"
+					(reference "#PWR0118")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GL850G-USB2.0-HUB-altium-import:root_1_FB-0805")
+		(at 220.98 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7361551e-ef2e-459f-ac65-6ff93406bebb")
+		(property "Reference" "LB6"
+			(at 215.9 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "FB"
+			(at 227.33 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+			(at 220.98 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 220.98 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8ffa3eb5-86df-442c-b407-087efb70779c")
+		)
+		(pin "2"
+			(uuid "a0f3923f-76cc-451e-8002-8c43348ad6ae")
+		)
+		(instances
+			(project ""
+				(path "/1a44a526-f3e6-4932-9286-6f7d2da90d3a/ff40a903-5374-4c95-a031-f9657f1b836d"
+					(reference "LB6")
+					(unit 1)
+				)
+			)
+			(project "GL850G-USB2.0-HUB"
+				(path "/ec9f86e1-2bae-4ae4-97bb-faf22660c9e3"
+					(reference "LB6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GL850G-USB2.0-HUB-altium-import:DGND_POWER_GROUND")
+		(at 81.28 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "777f3cfc-8c81-4d03-93ee-1f34eb1e069f")
+		(property "Reference" "#PWR0102"
+			(at 81.28 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "DGND"
+			(at 81.28 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 81.28 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "a24b2d9c-60fa-43dc-8143-4e4b97143302")
+		)
+		(instances
+			(project ""
+				(path "/1a44a526-f3e6-4932-9286-6f7d2da90d3a/ff40a903-5374-4c95-a031-f9657f1b836d"
+					(reference "#PWR0102")
+					(unit 1)
+				)
+			)
+			(project "GL850G-USB2.0-HUB"
+				(path "/ec9f86e1-2bae-4ae4-97bb-faf22660c9e3"
+					(reference "#PWR0102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GL850G-USB2.0-HUB-altium-import:root_0_C-0603")
+		(at 109.22 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "78979c42-2de1-4ba5-91db-647924219960")
+		(property "Reference" "C8"
+			(at 113.03 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "20P"
+			(at 113.03 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 109.22 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 109.22 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d64abbc3-5195-4431-9218-bfd0d5c0ad76")
+		)
+		(pin "1"
+			(uuid "c7eeaf5f-0b21-46e7-8dc5-ad8f699bfda8")
+		)
+		(instances
+			(project ""
+				(path "/1a44a526-f3e6-4932-9286-6f7d2da90d3a/ff40a903-5374-4c95-a031-f9657f1b836d"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+			(project "GL850G-USB2.0-HUB"
+				(path "/ec9f86e1-2bae-4ae4-97bb-faf22660c9e3"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GL850G-USB2.0-HUB-altium-import:root_1_R-0603")
+		(at 24.13 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
+		(uuid "78acfe76-89d4-4e5d-9341-c767321c6c3d")
+		(property "Reference" "R7"
+			(at 27.94 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "20K"
+			(at 27.94 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 24.13 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 24.13 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "09ba3cff-6d6e-4a81-9ac4-fa7262fca07d")
+		)
+		(pin "2"
+			(uuid "3f5e2e37-82ea-41cd-8923-321184312225")
+		)
+		(instances
+			(project ""
+				(path "/1a44a526-f3e6-4932-9286-6f7d2da90d3a/ff40a903-5374-4c95-a031-f9657f1b836d"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+			(project "GL850G-USB2.0-HUB"
+				(path "/ec9f86e1-2bae-4ae4-97bb-faf22660c9e3"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GL850G-USB2.0-HUB-altium-import:root_0_C-0603")
+		(at 132.08 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7b721171-2958-43fc-beb0-1777162f3d38")
+		(property "Reference" "C1"
+			(at 135.89 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1uF"
+			(at 135.89 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 132.08 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3c8184f6-51c5-4716-a9a1-18784cd2446b")
+		)
+		(pin "2"
+			(uuid "02fe2984-de68-4890-b3eb-d88b5548f53c")
+		)
+		(instances
+			(project ""
+				(path "/1a44a526-f3e6-4932-9286-6f7d2da90d3a/ff40a903-5374-4c95-a031-f9657f1b836d"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+			(project "GL850G-USB2.0-HUB"
+				(path "/ec9f86e1-2bae-4ae4-97bb-faf22660c9e3"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GL850G-USB2.0-HUB-altium-import:DGND_POWER_GROUND")
+		(at 114.3 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "82496339-b14f-4dd7-bf31-eaf3151c1293")
+		(property "Reference" "#PWR0110"
+			(at 114.3 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "DGND"
+			(at 114.3 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 114.3 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "d1e56e13-73a7-42af-8be8-69e5577fa67f")
+		)
+		(instances
+			(project ""
+				(path "/1a44a526-f3e6-4932-9286-6f7d2da90d3a/ff40a903-5374-4c95-a031-f9657f1b836d"
+					(reference "#PWR0110")
+					(unit 1)
+				)
+			)
+			(project "GL850G-USB2.0-HUB"
+				(path "/ec9f86e1-2bae-4ae4-97bb-faf22660c9e3"
+					(reference "#PWR0110")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GL850G-USB2.0-HUB-altium-import:root_0_C-0603")
+		(at 111.76 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "915358ae-1973-4a6b-8c31-a4839efe2d9b")
+		(property "Reference" "C13"
+			(at 115.57 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10uF"
+			(at 115.57 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 111.76 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d4e4b6cc-8f3f-48b0-9c04-779a19aa0e9c")
+		)
+		(pin "2"
+			(uuid "5034f204-d4c5-4e39-ad6d-7e5258741738")
+		)
+		(instances
+			(project ""
+				(path "/1a44a526-f3e6-4932-9286-6f7d2da90d3a/ff40a903-5374-4c95-a031-f9657f1b836d"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+			(project "GL850G-USB2.0-HUB"
+				(path "/ec9f86e1-2bae-4ae4-97bb-faf22660c9e3"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GL850G-USB2.0-HUB-altium-import:DGND_POWER_GROUND")
+		(at 167.64 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "94d96c66-2fbd-4f7d-9785-a8e18e741967")
+		(property "Reference" "#PWR0114"
+			(at 167.64 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "DGND"
+			(at 167.64 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "843d4732-788a-48bc-a6f0-d7e9e44efc86")
+		)
+		(instances
+			(project ""
+				(path "/1a44a526-f3e6-4932-9286-6f7d2da90d3a/ff40a903-5374-4c95-a031-f9657f1b836d"
+					(reference "#PWR0114")
+					(unit 1)
+				)
+			)
+			(project "GL850G-USB2.0-HUB"
+				(path "/ec9f86e1-2bae-4ae4-97bb-faf22660c9e3"
+					(reference "#PWR0114")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GL850G-USB2.0-HUB-altium-import:root_0_C-0603")
+		(at 165.1 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "982acfbe-73c6-4079-861a-ff3b3f43a100")
+		(property "Reference" "C10"
+			(at 168.91 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 168.91 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 165.1 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b5f628b8-1274-463b-acfb-b2b521a7c9e2")
+		)
+		(pin "2"
+			(uuid "11f535f1-acad-4108-8d56-3f1863d3e502")
+		)
+		(instances
+			(project ""
+				(path "/1a44a526-f3e6-4932-9286-6f7d2da90d3a/ff40a903-5374-4c95-a031-f9657f1b836d"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+			(project "GL850G-USB2.0-HUB"
+				(path "/ec9f86e1-2bae-4ae4-97bb-faf22660c9e3"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GL850G-USB2.0-HUB-altium-import:AVDD_CIRCLE")
+		(at 149.86 22.86 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "99b2fa8d-de92-439b-82ff-097c06e47895")
+		(property "Reference" "#PWR0129"
+			(at 149.86 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AVDD"
+			(at 149.86 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 149.86 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "7aa1665c-c8ef-4235-ba79-2aa0a54cc362")
+		)
+		(instances
+			(project ""
+				(path "/1a44a526-f3e6-4932-9286-6f7d2da90d3a/ff40a903-5374-4c95-a031-f9657f1b836d"
+					(reference "#PWR0129")
+					(unit 1)
+				)
+			)
+			(project "GL850G-USB2.0-HUB"
+				(path "/ec9f86e1-2bae-4ae4-97bb-faf22660c9e3"
+					(reference "#PWR0129")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GL850G-USB2.0-HUB-altium-import:root_1_R-0603")
+		(at 175.26 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9d31595c-e31e-48fd-9da2-510731d70373")
+		(property "Reference" "R5"
+			(at 179.07 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "47K"
+			(at 179.07 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 175.26 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f36f2f8d-0215-40a7-b61e-8153e1425707")
+		)
+		(pin "1"
+			(uuid "35a02795-a33a-4c04-9c8c-b2b644954bd1")
+		)
+		(instances
+			(project ""
+				(path "/1a44a526-f3e6-4932-9286-6f7d2da90d3a/ff40a903-5374-4c95-a031-f9657f1b836d"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+			(project "GL850G-USB2.0-HUB"
+				(path "/ec9f86e1-2bae-4ae4-97bb-faf22660c9e3"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GL850G-USB2.0-HUB-altium-import:EGND_EARTH")
+		(at 259.08 55.88 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a477059d-6a1b-4b78-a6a4-d7d960141a53")
+		(property "Reference" "#PWR0122"
+			(at 259.08 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "EGND"
+			(at 259.08 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 259.08 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "83ff23c5-33f2-4de8-a819-e5d78f5ea46c")
+		)
+		(instances
+			(project ""
+				(path "/1a44a526-f3e6-4932-9286-6f7d2da90d3a/ff40a903-5374-4c95-a031-f9657f1b836d"
+					(reference "#PWR0122")
+					(unit 1)
+				)
+			)
+			(project "GL850G-USB2.0-HUB"
+				(path "/ec9f86e1-2bae-4ae4-97bb-faf22660c9e3"
+					(reference "#PWR0122")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GL850G-USB2.0-HUB-altium-import:DGND_POWER_GROUND")
+		(at 26.67 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
+		(uuid "a4f116ad-8d2d-44f7-8869-471ec6f2bb18")
+		(property "Reference" "#PWR0107"
+			(at 26.67 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "DGND"
+			(at 26.67 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 26.67 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 26.67 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 26.67 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "9cb9dc0e-3cad-48c6-87c7-c3576ba8e2ba")
+		)
+		(instances
+			(project ""
+				(path "/1a44a526-f3e6-4932-9286-6f7d2da90d3a/ff40a903-5374-4c95-a031-f9657f1b836d"
+					(reference "#PWR0107")
+					(unit 1)
+				)
+			)
+			(project "GL850G-USB2.0-HUB"
+				(path "/ec9f86e1-2bae-4ae4-97bb-faf22660c9e3"
+					(reference "#PWR0107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GL850G-USB2.0-HUB-altium-import:root_1_R-0603")
+		(at 157.48 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a912ccce-7820-40de-a78a-d877577fc35e")
+		(property "Reference" "R2"
+			(at 161.29 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "470R"
+			(at 161.29 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 157.48 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4c03bfa7-ebc5-45bd-a369-b50ffab47558")
+		)
+		(pin "2"
+			(uuid "27377a5c-1245-4410-954c-1cd15b0af364")
+		)
+		(instances
+			(project ""
+				(path "/1a44a526-f3e6-4932-9286-6f7d2da90d3a/ff40a903-5374-4c95-a031-f9657f1b836d"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+			(project "GL850G-USB2.0-HUB"
+				(path "/ec9f86e1-2bae-4ae4-97bb-faf22660c9e3"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GL850G-USB2.0-HUB-altium-import:VCC_CIRCLE")
+		(at 60.96 147.32 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b1309414-6301-4db8-899e-d459648c4ea0")
+		(property "Reference" "#PWR0101"
+			(at 60.96 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 60.96 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 60.96 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "d23f3a2e-3475-47d9-8df2-f71b13affedb")
+		)
+		(instances
+			(project ""
+				(path "/1a44a526-f3e6-4932-9286-6f7d2da90d3a/ff40a903-5374-4c95-a031-f9657f1b836d"
+					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
+			(project "GL850G-USB2.0-HUB"
+				(path "/ec9f86e1-2bae-4ae4-97bb-faf22660c9e3"
+					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GL850G-USB2.0-HUB-altium-import:root_0_C-0603")
+		(at 228.6 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b333d01a-375e-463a-912c-686aaf658321")
+		(property "Reference" "C15"
+			(at 232.41 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 232.41 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 228.6 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 228.6 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8507ef20-46f0-465d-b4be-c29bcf9cf111")
+		)
+		(pin "1"
+			(uuid "4727ab84-0f3b-443b-8896-4d4397c64100")
+		)
+		(instances
+			(project ""
+				(path "/1a44a526-f3e6-4932-9286-6f7d2da90d3a/ff40a903-5374-4c95-a031-f9657f1b836d"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+			(project "GL850G-USB2.0-HUB"
+				(path "/ec9f86e1-2bae-4ae4-97bb-faf22660c9e3"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GL850G-USB2.0-HUB-altium-import:EGND_EARTH")
+		(at 116.84 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b4053c10-a1a3-49ae-96af-bc36ebb1e299")
+		(property "Reference" "#PWR0103"
+			(at 116.84 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "EGND"
+			(at 116.84 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 116.84 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "8d5ff68c-0190-4e0d-9e3e-4577d6f5dae8")
+		)
+		(instances
+			(project ""
+				(path "/1a44a526-f3e6-4932-9286-6f7d2da90d3a/ff40a903-5374-4c95-a031-f9657f1b836d"
+					(reference "#PWR0103")
+					(unit 1)
+				)
+			)
+			(project "GL850G-USB2.0-HUB"
+				(path "/ec9f86e1-2bae-4ae4-97bb-faf22660c9e3"
+					(reference "#PWR0103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GL850G-USB2.0-HUB-altium-import:root_0_USBA-A")
+		(at 269.24 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "b668fd61-6dd1-4d4b-9be9-1ee9683f0aac")
+		(property "Reference" "DOWN2"
+			(at 269.24 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "USBA-A"
+			(at 269.24 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 269.24 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 269.24 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "d86f8d74-8d31-409b-a754-8552316ef9eb")
+		)
+		(pin "1"
+			(uuid "785c5752-1bb1-46a7-a65e-862ce51713cf")
+		)
+		(pin "2"
+			(uuid "18cb24db-6ddb-4887-ab72-0b2a2574b3ff")
+		)
+		(pin "4"
+			(uuid "d20d2d59-e077-45f7-b36a-fe17ac594901")
+		)
+		(pin "G2"
+			(uuid "0458e34f-2c35-4afa-b5ae-9b4380e840f8")
+		)
+		(pin "G1"
+			(uuid "369af712-e674-4f36-8af8-2c04191253cc")
+		)
+		(instances
+			(project ""
+				(path "/1a44a526-f3e6-4932-9286-6f7d2da90d3a/ff40a903-5374-4c95-a031-f9657f1b836d"
+					(reference "DOWN2")
+					(unit 1)
+				)
+			)
+			(project "GL850G-USB2.0-HUB"
+				(path "/ec9f86e1-2bae-4ae4-97bb-faf22660c9e3"
+					(reference "DOWN2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GL850G-USB2.0-HUB-altium-import:DGND_POWER_GROUND")
+		(at 215.9 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b7ee3ca1-ff1e-462a-bfd8-b715daf7ff90")
+		(property "Reference" "#PWR0126"
+			(at 215.9 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "DGND"
+			(at 215.9 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 215.9 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "81548ee9-1c9b-4e37-bb34-5cb883dbe03a")
+		)
+		(instances
+			(project ""
+				(path "/1a44a526-f3e6-4932-9286-6f7d2da90d3a/ff40a903-5374-4c95-a031-f9657f1b836d"
+					(reference "#PWR0126")
+					(unit 1)
+				)
+			)
+			(project "GL850G-USB2.0-HUB"
+				(path "/ec9f86e1-2bae-4ae4-97bb-faf22660c9e3"
+					(reference "#PWR0126")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GL850G-USB2.0-HUB-altium-import:root_1_FB-0805")
+		(at 220.98 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c051cc4f-7941-42a6-ade0-8ecd8d168f49")
+		(property "Reference" "LB3"
+			(at 218.44 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "FB"
+			(at 223.52 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+			(at 220.98 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 220.98 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "383ee4e9-8796-413a-bc16-93e4eddcc823")
+		)
+		(pin "2"
+			(uuid "642222bf-bde6-464d-819e-a933f1f02dc7")
+		)
+		(instances
+			(project ""
+				(path "/1a44a526-f3e6-4932-9286-6f7d2da90d3a/ff40a903-5374-4c95-a031-f9657f1b836d"
+					(reference "LB3")
+					(unit 1)
+				)
+			)
+			(project "GL850G-USB2.0-HUB"
+				(path "/ec9f86e1-2bae-4ae4-97bb-faf22660c9e3"
+					(reference "LB3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GL850G-USB2.0-HUB-altium-import:root_0_C-0603")
+		(at 228.6 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c348242e-a7a1-4fcc-a6a9-1fb9b2339a13")
+		(property "Reference" "C7"
+			(at 232.41 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 232.41 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 228.6 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 228.6 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "26e5dd74-68c3-4f1a-9ef5-875b7ccdc36d")
+		)
+		(pin "1"
+			(uuid "0c207374-42bd-4691-9f9a-14a59148c183")
+		)
+		(instances
+			(project ""
+				(path "/1a44a526-f3e6-4932-9286-6f7d2da90d3a/ff40a903-5374-4c95-a031-f9657f1b836d"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+			(project "GL850G-USB2.0-HUB"
+				(path "/ec9f86e1-2bae-4ae4-97bb-faf22660c9e3"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GL850G-USB2.0-HUB-altium-import:DVDD_CIRCLE")
+		(at 160.02 137.16 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c6cb9027-50d4-4c83-b76e-2584d7fbdaa7")
+		(property "Reference" "#PWR0115"
+			(at 160.02 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "DVDD"
+			(at 160.02 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 160.02 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "0d342026-968b-48bf-931e-8b961b11406e")
+		)
+		(instances
+			(project ""
+				(path "/1a44a526-f3e6-4932-9286-6f7d2da90d3a/ff40a903-5374-4c95-a031-f9657f1b836d"
+					(reference "#PWR0115")
+					(unit 1)
+				)
+			)
+			(project "GL850G-USB2.0-HUB"
+				(path "/ec9f86e1-2bae-4ae4-97bb-faf22660c9e3"
+					(reference "#PWR0115")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GL850G-USB2.0-HUB-altium-import:root_0_USBA-A")
+		(at 269.24 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "d158fdda-e5a6-4dfc-aff9-3d6bdfba8551")
+		(property "Reference" "DOWN4"
+			(at 269.24 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "USBA-A"
+			(at 269.24 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 269.24 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 269.24 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3b20796b-2fff-46cf-bbd1-360b496a7800")
+		)
+		(pin "G2"
+			(uuid "75ff5d50-621e-42fc-9bf1-b12669651514")
+		)
+		(pin "4"
+			(uuid "f1bbee01-df8a-4e57-9f1f-885954d377e9")
+		)
+		(pin "2"
+			(uuid "be9a4221-6018-4b26-8c12-528574d0715c")
+		)
+		(pin "G1"
+			(uuid "31178e01-3fec-4c13-8e34-14a4afff5b4e")
+		)
+		(pin "3"
+			(uuid "db5fac3b-e965-473d-8263-f52f66062846")
+		)
+		(instances
+			(project ""
+				(path "/1a44a526-f3e6-4932-9286-6f7d2da90d3a/ff40a903-5374-4c95-a031-f9657f1b836d"
+					(reference "DOWN4")
+					(unit 1)
+				)
+			)
+			(project "GL850G-USB2.0-HUB"
+				(path "/ec9f86e1-2bae-4ae4-97bb-faf22660c9e3"
+					(reference "DOWN4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GL850G-USB2.0-HUB-altium-import:DGND_POWER_GROUND")
+		(at 83.82 55.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d8fae6ad-14b3-4807-be25-3fda569f5e4c")
+		(property "Reference" "#PWR0111"
+			(at 83.82 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "DGND"
+			(at 90.17 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 83.82 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "2d509e8a-ac0b-4f3c-a418-1e51f73ac846")
+		)
+		(instances
+			(project ""
+				(path "/1a44a526-f3e6-4932-9286-6f7d2da90d3a/ff40a903-5374-4c95-a031-f9657f1b836d"
+					(reference "#PWR0111")
+					(unit 1)
+				)
+			)
+			(project "GL850G-USB2.0-HUB"
+				(path "/ec9f86e1-2bae-4ae4-97bb-faf22660c9e3"
+					(reference "#PWR0111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GL850G-USB2.0-HUB-altium-import:root_0_CE-100UF/16V")
+		(at 213.36 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ddcaa9fd-ba87-412c-bc3e-75fae136e0bc")
+		(property "Reference" "EC2"
+			(at 218.44 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100uF"
+			(at 218.44 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D"
+			(at 213.36 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 213.36 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8d6fd108-0f60-4f68-9d38-1c0b5e9ae106")
+		)
+		(pin "1"
+			(uuid "9ced36bc-3178-4ab1-94f2-3f906984260f")
+		)
+		(instances
+			(project ""
+				(path "/1a44a526-f3e6-4932-9286-6f7d2da90d3a/ff40a903-5374-4c95-a031-f9657f1b836d"
+					(reference "EC2")
+					(unit 1)
+				)
+			)
+			(project "GL850G-USB2.0-HUB"
+				(path "/ec9f86e1-2bae-4ae4-97bb-faf22660c9e3"
+					(reference "EC2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GL850G-USB2.0-HUB-altium-import:root_0_FS-A_0")
+		(at 34.29 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
+		(uuid "dde6136c-bed7-49c0-8641-fdf971e35335")
+		(property "Reference" "F1"
+			(at 35.56 80.264 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "6V2A"
+			(at 34.29 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1210_3225Metric"
+			(at 34.29 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 34.29 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "af5208eb-af92-4b7a-a138-93ceda8c679a")
+		)
+		(pin "1"
+			(uuid "5db455c2-a47a-433a-82a3-828856b92d76")
+		)
+		(instances
+			(project ""
+				(path "/1a44a526-f3e6-4932-9286-6f7d2da90d3a/ff40a903-5374-4c95-a031-f9657f1b836d"
+					(reference "F1")
+					(unit 1)
+				)
+			)
+			(project "GL850G-USB2.0-HUB"
+				(path "/ec9f86e1-2bae-4ae4-97bb-faf22660c9e3"
+					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GL850G-USB2.0-HUB-altium-import:root_1_FB-0805")
+		(at 121.92 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "df223579-e6c9-4e41-a6f9-cb1347d2220d")
+		(property "Reference" "LB2"
+			(at 116.84 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "FB"
+			(at 128.27 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+			(at 121.92 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 121.92 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "489ac43a-071e-4bb5-98e5-918d8c9784d2")
+		)
+		(pin "1"
+			(uuid "6aebdff1-5a3d-4bab-8cca-a8a4481da536")
+		)
+		(instances
+			(project ""
+				(path "/1a44a526-f3e6-4932-9286-6f7d2da90d3a/ff40a903-5374-4c95-a031-f9657f1b836d"
+					(reference "LB2")
+					(unit 1)
+				)
+			)
+			(project "GL850G-USB2.0-HUB"
+				(path "/ec9f86e1-2bae-4ae4-97bb-faf22660c9e3"
+					(reference "LB2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GL850G-USB2.0-HUB-altium-import:root_1_R-0603 1%")
+		(at 78.74 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e2873ba9-fb62-4824-91c8-dbdbd255295a")
+		(property "Reference" "R3"
+			(at 80.01 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "680R 1%"
+			(at 80.01 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 78.74 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 78.74 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "22b8fe4a-825c-4951-a096-e9962dd221e5")
+		)
+		(pin "2"
+			(uuid "5dc96eb5-efc4-4d38-863a-6f7626eff82b")
+		)
+		(instances
+			(project ""
+				(path "/1a44a526-f3e6-4932-9286-6f7d2da90d3a/ff40a903-5374-4c95-a031-f9657f1b836d"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+			(project "GL850G-USB2.0-HUB"
+				(path "/ec9f86e1-2bae-4ae4-97bb-faf22660c9e3"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GL850G-USB2.0-HUB-altium-import:DGND_POWER_GROUND")
+		(at 215.9 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e4594e11-acfb-469b-a661-e38b102468a4")
+		(property "Reference" "#PWR0116"
+			(at 215.9 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "DGND"
+			(at 215.9 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 215.9 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "55cc009b-9bcd-4409-9bfb-ba61bab1c31f")
+		)
+		(instances
+			(project ""
+				(path "/1a44a526-f3e6-4932-9286-6f7d2da90d3a/ff40a903-5374-4c95-a031-f9657f1b836d"
+					(reference "#PWR0116")
+					(unit 1)
+				)
+			)
+			(project "GL850G-USB2.0-HUB"
+				(path "/ec9f86e1-2bae-4ae4-97bb-faf22660c9e3"
+					(reference "#PWR0116")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GL850G-USB2.0-HUB-altium-import:root_1_FB-0805")
+		(at 68.58 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e5718d42-7d53-4afd-9a0a-57fe5a94e26c")
+		(property "Reference" "LB1"
+			(at 68.58 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "FB"
+			(at 69.85 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+			(at 68.58 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 68.58 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a7c840e5-3732-4eb5-8379-68623fcf0aeb")
+		)
+		(pin "2"
+			(uuid "888bd221-382b-435d-a613-9e5131613ab4")
+		)
+		(instances
+			(project ""
+				(path "/1a44a526-f3e6-4932-9286-6f7d2da90d3a/ff40a903-5374-4c95-a031-f9657f1b836d"
+					(reference "LB1")
+					(unit 1)
+				)
+			)
+			(project "GL850G-USB2.0-HUB"
+				(path "/ec9f86e1-2bae-4ae4-97bb-faf22660c9e3"
+					(reference "LB1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GL850G-USB2.0-HUB-altium-import:root_0_C-0603")
+		(at 157.48 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e5af3bc9-867b-4d84-9d21-a7fc8114a28d")
+		(property "Reference" "C3"
+			(at 161.29 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 161.29 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 157.48 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "08f94322-71d5-485e-93e1-2575a6ac3d2a")
+		)
+		(pin "1"
+			(uuid "52e2f3ea-6d3f-41dc-b60b-abd8ce6b67d8")
+		)
+		(instances
+			(project ""
+				(path "/1a44a526-f3e6-4932-9286-6f7d2da90d3a/ff40a903-5374-4c95-a031-f9657f1b836d"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+			(project "GL850G-USB2.0-HUB"
+				(path "/ec9f86e1-2bae-4ae4-97bb-faf22660c9e3"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GL850G-USB2.0-HUB-altium-import:EGND_EARTH")
+		(at 259.08 127 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ec644047-f7c6-4ba2-9786-fd7ec772652e")
+		(property "Reference" "#PWR0119"
+			(at 259.08 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "EGND"
+			(at 259.08 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 259.08 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "5b4029f0-ea0e-4df5-97b8-0d3e3e4772f8")
+		)
+		(instances
+			(project ""
+				(path "/1a44a526-f3e6-4932-9286-6f7d2da90d3a/ff40a903-5374-4c95-a031-f9657f1b836d"
+					(reference "#PWR0119")
+					(unit 1)
+				)
+			)
+			(project "GL850G-USB2.0-HUB"
+				(path "/ec9f86e1-2bae-4ae4-97bb-faf22660c9e3"
+					(reference "#PWR0119")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GL850G-USB2.0-HUB-altium-import:DGND_POWER_GROUND")
+		(at 40.64 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f35b3ecc-b967-46ba-ba3a-70c2c15a7a57")
+		(property "Reference" "#PWR0106"
+			(at 40.64 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "DGND"
+			(at 40.64 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 40.64 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "0170dda5-6d89-4110-a8e8-d10ccd68edd4")
+		)
+		(instances
+			(project ""
+				(path "/1a44a526-f3e6-4932-9286-6f7d2da90d3a/ff40a903-5374-4c95-a031-f9657f1b836d"
+					(reference "#PWR0106")
+					(unit 1)
+				)
+			)
+			(project "GL850G-USB2.0-HUB"
+				(path "/ec9f86e1-2bae-4ae4-97bb-faf22660c9e3"
+					(reference "#PWR0106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GL850G-USB2.0-HUB-altium-import:root_0_C-0603")
+		(at 124.46 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f59b386e-8f98-4f50-882b-26225ae187e8")
+		(property "Reference" "C9"
+			(at 128.27 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "20P"
+			(at 128.27 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 124.46 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "72fbc08a-41ae-4210-bd9a-15095a0b3a81")
+		)
+		(pin "2"
+			(uuid "f3f4ec92-be18-474f-ba40-b9f2a1c79e84")
+		)
+		(instances
+			(project ""
+				(path "/1a44a526-f3e6-4932-9286-6f7d2da90d3a/ff40a903-5374-4c95-a031-f9657f1b836d"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+			(project "GL850G-USB2.0-HUB"
+				(path "/ec9f86e1-2bae-4ae4-97bb-faf22660c9e3"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GL850G-USB2.0-HUB-altium-import:root_0_C-0603")
+		(at 177.8 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f6964c84-9af4-488a-861f-fc259a17e6bf")
+		(property "Reference" "C5"
+			(at 181.61 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 181.61 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 177.8 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 177.8 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0a2b6861-062a-42ab-999d-ca1744ae084b")
+		)
+		(pin "1"
+			(uuid "b236c14a-08cb-44ee-a307-15d6f957997a")
+		)
+		(instances
+			(project ""
+				(path "/1a44a526-f3e6-4932-9286-6f7d2da90d3a/ff40a903-5374-4c95-a031-f9657f1b836d"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+			(project "GL850G-USB2.0-HUB"
+				(path "/ec9f86e1-2bae-4ae4-97bb-faf22660c9e3"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GL850G-USB2.0-HUB-altium-import:root_0_GLI8024-48_3")
+		(at 33.02 15.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f788cb57-1b77-469b-8ade-0e4405eb6e96")
+		(property "Reference" "U1"
+			(at 35.56 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "GL850AUSB"
+			(at 44.45 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Package_SO:SSOP-28_5.3x10.2mm_P0.65mm"
+			(at 33.02 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 33.02 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "23"
+			(uuid "7d0ad8a3-6b68-4c21-b90d-026462fb6dc8")
+		)
+		(pin "19"
+			(uuid "ca9c2bbc-b527-4cd5-b905-3e1ea3c42093")
+		)
+		(pin "18"
+			(uuid "1a656b28-cf7c-4b12-994c-aa664360bb1f")
+		)
+		(pin "25"
+			(uuid "a6ac5c63-6cc8-4ead-8310-e083fd4ebb2b")
+		)
+		(pin "17"
+			(uuid "f5511637-f262-4d77-a4e8-47427ee390af")
+		)
+		(pin "10"
+			(uuid "8617aea8-c862-4e40-9e93-adef533ef0e2")
+		)
+		(pin "4"
+			(uuid "e6480d5e-5010-449c-beb5-c4ef251fd1b5")
+		)
+		(pin "22"
+			(uuid "bf70ecf5-e5b8-4a6d-96d7-01d072e7f378")
+		)
+		(pin "27"
+			(uuid "a402c433-4ce9-4109-9342-d984268a05e4")
+		)
+		(pin "6"
+			(uuid "730163ff-f2f5-4733-a214-62b7575ccea8")
+		)
+		(pin "13"
+			(uuid "005a59c6-a9fe-40cc-9d80-b1af4e057b9a")
+		)
+		(pin "3"
+			(uuid "9e0a4c1e-6309-4716-8a7c-a079f28378d2")
+		)
+		(pin "12"
+			(uuid "1ecf2d17-aeeb-458b-9934-50853462bc7f")
+		)
+		(pin "28"
+			(uuid "aacc9937-6638-49e0-a8cd-84a6c79c628e")
+		)
+		(pin "16"
+			(uuid "4a7c65aa-d726-475b-830e-d45caea4aa26")
+		)
+		(pin "2"
+			(uuid "96149047-d4bf-4549-b533-83e09be15abc")
+		)
+		(pin "7"
+			(uuid "5098b163-9400-464e-833d-0e973330add6")
+		)
+		(pin "9"
+			(uuid "16f1b221-1789-42ca-8152-291529606f7f")
+		)
+		(pin "14"
+			(uuid "75ff694c-26d5-44ea-b1f4-4c6c08b4295e")
+		)
+		(pin "8"
+			(uuid "41e8cbf4-5dc9-49a5-88b3-6e316f65d299")
+		)
+		(pin "11"
+			(uuid "df10f8cc-652e-4b91-ad9f-ce8db8424973")
+		)
+		(pin "26"
+			(uuid "215e2efa-6a83-4b2e-95b1-02a0fd03cb31")
+		)
+		(pin "21"
+			(uuid "7be25a60-c481-4234-9cea-3a5dad7e83b3")
+		)
+		(pin "20"
+			(uuid "5cb0c8cc-8eb6-468d-913b-e61ab96be162")
+		)
+		(pin "1"
+			(uuid "b4f05f81-5639-4361-b064-0af39ca8964d")
+		)
+		(pin "15"
+			(uuid "ef813217-1128-429e-aade-402d066fccec")
+		)
+		(pin "24"
+			(uuid "dea2653f-0f63-4ad7-ba21-72723bf407bf")
+		)
+		(pin "5"
+			(uuid "53a2ecfc-9595-43b8-8425-eaaf5f1105e9")
+		)
+		(instances
+			(project ""
+				(path "/1a44a526-f3e6-4932-9286-6f7d2da90d3a/ff40a903-5374-4c95-a031-f9657f1b836d"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+			(project "GL850G-USB2.0-HUB"
+				(path "/ec9f86e1-2bae-4ae4-97bb-faf22660c9e3"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
